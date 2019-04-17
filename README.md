@@ -1,5 +1,3 @@
-Overall, maybe do an example walkthrough? Maybe not.
-
 # Commander Primer
 
 An introduction to deckbuilding for the Magic: The Gathering (MTG) Commander format by Kyle Kovacs
@@ -12,7 +10,7 @@ This guide is meant for people who already know how to play Magic, but don't kno
 
 There are many different ways to play MTG, called **formats**. A format is defined by a specific set of deckbuilding rules. Each official format contains rules about how many cards are allowed to be in a deck, which cards are allowed to be played, how many players are in a game, how mulligans work, and sometimes a few other rules.
 
-The main formats supported by Wizards of the Coast (WOTC) are Vintage, Legacy, Modern, Pauper, Standard, Commander, Booster Draft, Sealed, and Brawl. Each of these formats has its own set of legal cards and its own restrictions on deck size. This article will not cover the details of the differences between the formats, but this highlights the fact that there are many ways to play MTG, each with its own set of specific rules and metagames.
+The main official formats are Vintage, Legacy, Modern, Pauper, Standard, Commander, Booster Draft, Sealed, and Brawl. Each of these formats has its own set of legal cards and its own restrictions on deck size. This article will not cover the details of the differences between the formats, but this highlights the fact that there are many ways to play MTG, each with its own set of specific rules and metagames.
 
 So what is the Commander format? Let's take a look at the rules in detail.
 
@@ -55,49 +53,89 @@ The relevant game rules are the following:
   - Noncombat damage also counts as commander damage.
 - Players start at 40 life
 - Each player gets 1 free mulligan (you can draw back up to 7 after your first mulligan, then 6 after your second, etc.)
-- The player who goes first does not skip their draw step
+- The player who goes first does not skip their first draw step
 
 Commander is best played with 4 players at a time. If a player loses the game, all cards owned by that player cease to exist (from the game's perspective) and the game continues on with the remaining players. If a player wins the game, the game ends and all other players lose.
+
+### Why Commander?
 
 A big part of what makes the format fun is the in-game politics. Some games play out relatively evenly, while other games see one player gain an early advantage and get teamed up on. The fun of commander is that even though your deck has the same cards in it, no two games play out the same way. Often in formats like Standard, which has a very narrow metagame, matchups can be deterministic and the same matchup will often play out the same way. This does not mean that Standard is boring, but it's definitely a different feeling and Commander has such a wide variety of things going on that it never seems to get boring.
 
 
-> **History Note**: Commander is often called Elder Dragon Highlander (EDH). This is a reference to 2 things. First, when Commander was invented, the only legal commanders were the five Elder Dragons, pictured below. Second, the movie _Highlander_ popularaized the phrase "there can only be one," which refers to the singleton nature of Commander.
+> **History Note**: Commander is often called Elder Dragon Highlander (EDH). This is a reference to 2 things. First, when Commander was invented, the only legal commanders were the five Elder Dragons, pictured below. Second, the movie _Highlander_ popularaized the phrase "there can only be one," which refers here to the singleton nature of Commander.
 >
-> | ![Arcades Sabboth][Arcades Sabboth] | ![Chromium][Chromium] | ![Nicol Bolas][Nicol Bolas] | ![Palladia-Mors][Palladia-Mors] | ![Vaevictis Asmadi][Vaevictis Asmadi] |
+> | ![Arcades Sabboth][Arcades Sabboth] | ![Chromium][Chromium] | ![Nicol Bolas][Nicol Bolas] | ![Vaevictis Asmadi][Vaevictis Asmadi] | ![Palladia-Mors][Palladia-Mors] |
 > |-|-|-|-|-|
 
-So, what is Commander?
+### So, what is Commander?
 
-Commander is **_THE_** casual format. Commander is where you can experiment. Your deck can be whatever you want it to be. You can play weird, random cards that were printed in 1998 that aren't good enough for Modern. Also, the decks are a lot less consistent in general, because your deck is 100 cards instead of 60, and you only have 1 copy of each. This means that it's a lot less about curving out in the first few turns. It's a lot harder to deprive 3 opponents of resources. It's much more difficult to kill people on turn 3 with simple combat damage. The tight, competative style of other constructed formats is broken down and replaced with a relaxed attitude of fun for the sake of fun.
+Commander is **_THE_** casual format. Commander is where you can experiment. Your deck can be whatever you want it to be. You can play weird, random cards printed in 1998 that aren't good enough for Modern. Also, the decks are a lot less consistent in general, because your deck is 100 cards instead of 60, and you only have 1 copy of each. This means that it's a lot less about curving out in the first few turns. It's a lot harder to deprive 3 opponents of resources. It's much more difficult to kill people on turn 3 with simple combat damage. The tight, competative style of other constructed formats is broken down and replaced with a relaxed attitude of fun for the sake of fun.
 
 Now that we've covered what Commander is and how it works, it's time (finally!) to talk about building a deck.
 
+## How to build your deck
+
+This section will talk about how to build your commander deck, from how to start, to where to look for inspiration, to what things to do or avoid.
+
+### Starting out
+
+[Gatherer] is the first website that we will introduce. Gatherer is the official MTG card database, and it has some powerful search tools built into it. Let's take a look at what you can do with it.
+
+> **Note**: Gatherer has all the up-to-date official errata information for every card ever printed. The _official_ rules text of cards is not what is printed on the card, but what it says in Gatherer. This is the official policy, because sometimes the rules of the game change. For some examples, take a look at the cards in the table below. Ancestral Recall used to say "Draw 3 cards or force opponent to draw 3 cards," but it has been changed to say "Target player draws 3 cards" in accordance with the new templating standards. According to some old version of the rules, these things called "mono artifacts" had to be tapped to be used. They later realized that just templating the mono artifacts as regular artifacts with activated abilities made more sense. Glasses of Urza is a great example (see below).
+>
+> | Old Ancestral Recall | New Ancestral Recall | Old Glasses of Urza | New Glasses of Urza |
+> |:-:|:-:|:-:|:-:|
+> | ![Ancestral Recall Beta][Ancestral Recall Beta] | ![Ancestral Recall][Ancestral Recall] | ![Glasses of Urza Beta][Glasses of Urza Beta] | ![Glasses of Urza][Glasses of Urza] |
+>
+> Often times the rules change and cards are not re-printed. Things like "when this creature comes into play" have been changed to "when this creature enters the battlefield." So if you're ever confused about a wording, go to Gatherer to see the official wording updated in accordance with the current rules. Many cards also have rules clarifications detailed in their Gatherer page. Look towards the bottom of [this page][Liliana Gatherer] under "Rulings" for an example.
+
+So what do we do with Gatherer? First of all, we can search for a given type of spell. Let's say we are interested in seeing if there's a way to couter spells outside of blue. In the Gatherer search page, enter `AND "counter target" spell` into the Rules Text filter, and `NOT blue` in the Colors filter. Use the Add buttons to add the search criteria. [This link][non-blue counters] is what you should see. I recommend switching the view to "Visual Spoiler" instead of "Standard." There are some screenshots below to help out.
+
+| Search term entry. Quotes tell the database to use the exact order of words; unquoted terms can show up anywhere on the card | Search criteria are shown to the right. Press the Search button to search |
+|-|-|
+| ![non-blue counters search][non-blue counters search] | ![non-blue counters terms][non-blue counters terms] |
+
+You can ask Gatherer for all kinds of things. Let's say we are building a deck with a green and white commander and we want to find some lands that tap for both green and white mana. We can use the following search criteria:
+
+| {W} is the white mana symbol and {G} is the green mana symbol | We also need to exclude the other mana symbols in order to find legal cards | We want a land that contains these symbols in its rules text |
+|-|-|-|
+| ![green white lands search][green white lands search] | ![green white lands exclude][green white lands exclude] | ![green white lands terms][green white lands terms] |
+
+Make sure to exclude lands that contain the blue, red, and black mana symbols, becuase those would be illegal in a deck with a commander whose color identity is only green and white. You should end up at [this page][green white lands], which has 30 results. Wow, that's a lot of green-white dual lands!
+
+> **NOTE**: keep in mind that there may be other non-obvious factors. In the example above, we do not see lands like Command Tower, Cascading Cataracts, Unknown Shores, or Gemstone Mine.
+>
+> | Command Tower | Cascading Cataracts | Painted Bluffs | Gemstone Mine |
+> |-|-|-|-|
+> |  |  |  |  |
 
 
-.
 
-.
 
-.
+There are a few approaches to start building a commander deck. The next few sections will talk about each method.
 
-.
+#### Find a commander that you like
 
-NOTES
 
-Building
-- find a commander
-- pick a style
-- do something you like
-- your first deck won't be good
-- budget
-- cards you already own
-- theme/challenge
+#### Pick a style that you like
 
-Your goal is to have fun, so
+
+
+#### Work with what you've got
+
+
+
+### Remember your goal: to have fun
+
+Now that you have a starting point, it's important to remember a few things. When you play Commander, your goal is to have fun. Different people think of this in different ways, but let's talk about how to maximize fun from a couple different angles.
+
+#### Build a fun deck
+
 - don't play combo
 - don't troll (warp world)
 - nonlinear is better
+
+#### Play a fun game
 
 And when you play
 - threat assessment
@@ -105,28 +143,66 @@ And when you play
 - don't be afraid to kill people if it advances you
 - politics
 
-battelcruiser
 
-Steps
+### Deckbuilding steps
+
+Now that you have a starting point, it's time to start building the deck! Commander is sometimes called "battle-cruiser Magic" because of the fact that it is slower than 1-on-1, and therefore allows for more big, flashy plays. In Legacy, for example, casting a big 7-mana creature for its full cost is almost always impossible &mdash; you may not even survive long enough to play 7 lands. In Commander, it's much more likely that you'll survive that long because there's a bunch of other things going on. So the pace of the game is a bit slower, allowing you to play some more expensive cards. That being said, you can't just shove 99 huge cards into a deck and hope to have any fun. We're going to talk about how to balance the deck properly.
+
+Keep in mind, your first deck may not be that good. After all, if you haven't played Commander a lot, you probably won't know exactly how it goes. This is okay, because your deck can evolve over time and as you play more and see more decks, you will discover more and more about what makes a good deck.
+
+The following steps will guide you through the deckbuilding process. Keep in mind that they don't necessarily apply in order, but that it's all a creative process and you can always change things around.
+
+Let's get started.
+
+#### Step 1: Think about it
+
 - think about it. If you picked a commander, what cards go with it? If you picked a style, what are the best cards? Use gatherer
+
+#### Step 2: Start a decklist
+
 - make decklist on MTGGoldfish
 - add cards you already have/like
+
+#### Step 3: Get some inspiration
+
 - go on edhrec for inspiration
 - add cards you like from there
+
+#### Step 4: Nitty-gritty searches
+
 - as you go, you find things and use gatherer
-- banlist
+
+> **Remember the banlist!** There are certain
+
+#### Step 5: Staples
 
 What to include?
 - necessary parts of a deck
 - staples
+
+#### Step 6: Control yourself
+
 - some meme cards okay, but not too many
+
+#### Step 7: Organization
 
 Collection phase over
 - now go on deckstats
 - make categories
 - think about ratios
 - make sure you have the right amount of stuff
-- trim trim trim
+
+#### Step 8: Trim, trim, trim
+
+You will probably have a lot more than 100 cards picked out by now. That's okay, but you're going to have to trim it down. Think hard about 
+
+### Other things to keep in mind
+
+Other things to keep in mind
+- budget
+- theme/challenge
+
+## Time to buy the cards
 
 Buy the cards
 - copy decklist
@@ -138,28 +214,46 @@ Buy the cards
 - if an order is wrong, give 1 star and they will accommodate, then change after
 - anecdote
 
+## Time to play the game!
+
 Time to play
 - good table
 - playmat
 - sleeves
 - players
 
-
 ## Glossary of terms
 
 MTG
-WOTC
 format
 commander
 
 
 
 
+[//]: # (card images)
 [Ancient Grudge]: https://img.scryfall.com/cards/large/en/mm3/88.jpg?1517813031 "Ancient Grudge is red, but its color identity is red and green"
 [Dovescape]: https://img.scryfall.com/cards/large/en/dis/143.jpg?1517813031 "Dovescape is blue and white, and its color identity is blue and white"
 [Blind Obedience]: https://img.scryfall.com/cards/large/en/c17/57.jpg?1517813031 "Blind Obedience is white, and its color identity is white"
 [Arcades Sabboth]: https://img.scryfall.com/cards/large/en/me3/142.jpg?1517813031 "The five Elder Dragons"
 [Chromium]: https://img.scryfall.com/cards/large/en/me3/147.jpg?1517813031 "The five Elder Dragons"
 [Nicol Bolas]: https://img.scryfall.com/cards/large/en/me3/163.jpg?1517813031 "The five Elder Dragons"
-[Palladia-Mors]: https://img.scryfall.com/cards/large/en/me3/164.jpg?1517813031 "The five Elder Dragons"
 [Vaevictis Asmadi]: https://img.scryfall.com/cards/large/en/me3/185.jpg?1517813031 "The five Elder Dragons"
+[Palladia-Mors]: https://img.scryfall.com/cards/large/en/me3/164.jpg?1517813031 "The five Elder Dragons"
+[Ancestral Recall Beta]: https://img.scryfall.com/cards/large/en/leb/48.jpg?1525122970 "Old wording of Ancestral Recall"
+[Ancestral Recall]: https://img.scryfall.com/cards/large/en/ovnt/2005.jpg?1523193155 "New wording of Ancestral Recall"
+[Glasses of Urza Beta]: https://img.scryfall.com/cards/large/en/leb/246.jpg?1525123591 "Old printing of Glasses of Urza"
+[Glasses of Urza]: https://img.scryfall.com/cards/large/en/me4/203.jpg?1517813031 "New printing of Glasses of Urza"
+
+[//]: # (website links)
+[Gatherer]: https://gatherer.wizards.com/Pages/Advanced.aspx "Gatherer"
+
+[//]: # (examples and screenshots)
+[Liliana Gatherer]: https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=398441 "Liliana, Heretical Healer Gatherer page"
+[non-blue counters]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%22counter+target%22%5d+%5bspell%5d&color=+!%5bU%5d "non-blue counterspells"
+[non-blue counters search]: /images/non-blue-counters-search.png "Search terms for non-blue counterspells"
+[non-blue counters terms]: /images/non-blue-counters-terms.png "Search terms for non-blue counterspells"
+[green white lands search]: /images/green-white-lands-search.png "Search terms for green and white lands"
+[green white lands terms]: /images/green-white-lands-terms.png "Search terms for green and white lands"
+[green white lands exclude]: /images/green-white-lands-exclude.png "Search terms for green and white lands"
+[green white lands]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%7bG%7d%5d+%5b%7bW%7d%5d+!%5b%7bB%7d%5d+!%5b%7bR%7d%5d+!%5b%7bU%7d%5d&type=+%5bland%5d "Search for green and white lands"
