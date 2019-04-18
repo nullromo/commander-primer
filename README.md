@@ -95,6 +95,8 @@ So what do we do with Gatherer? First of all, we can search for a given type of 
 |-|-|
 | ![non-blue counters search][non-blue counters search] | ![non-blue counters terms][non-blue counters terms] |
 
+Notice that a lot of the cards in these results actually do contain blue mana symbols becuase of activated abilities and thanks to the _Devoid_ mechanic. In the next example we will look at one way to mitigate these false positives.
+
 You can ask Gatherer for all kinds of things. Let's say we are building a deck with a green and white commander and we want to find some lands that tap for both green and white mana. We can use the following search criteria:
 
 | {W} is the white mana symbol and {G} is the green mana symbol | We also need to exclude the other mana symbols in order to find legal cards | We want a land that contains these symbols in its rules text |
@@ -103,27 +105,41 @@ You can ask Gatherer for all kinds of things. Let's say we are building a deck w
 
 Make sure to exclude lands that contain the blue, red, and black mana symbols, becuase those would be illegal in a deck with a commander whose color identity is only green and white. You should end up at [this page][green white lands], which has 30 results. Wow, that's a lot of green-white dual lands!
 
-> **NOTE**: keep in mind that there may be other non-obvious factors. In the example above, we do not see lands like Command Tower, Cascading Cataracts, Unknown Shores, or Gemstone Mine.
+> **NOTE**: keep in mind that there may be other non-obvious factors. In the example above, we do not see lands like Command Tower, Cascading Cataracts, Painted Bluffs, or Gemstone Mine.
 >
-> | Command Tower | Cascading Cataracts | Painted Bluffs | Gemstone Mine |
+> | Command Tower | Gemstone Mine | Cascading Cataracts | Painted Bluffs |
 > |-|-|-|-|
-> |  |  |  |  |
+> | ![Command Tower][Command Tower] | ![Gemstone Mine][Gemstone Mine] | ![Cascading Cataracts][Cascading Cataracts] | ![Painted Bluffs][Painted Bluffs] |
 
 
-
-
-There are a few approaches to start building a commander deck. The next few sections will talk about each method.
+Now that we know how to find cards meeting specific needs, let's talk about starting a deck. There are a few approaches to start building a commander deck, and the next few sections will talk about each method.
 
 #### Find a commander that you like
 
+Look at some legendary creatures. If you search Gatherer for all legendary creatures, you will find that there are many hundreds of options to choose from. You may not have time to read all of them, but maybe scroll through and browse around. Ask your friends. Look online. The point is to try and find a commander that grabs your attention. A good commander is one that you see potential in. There are some legendary creatures (see below) that just don't really do anything; these do not make good commanders.
+
+| Barktooth Warbeard | Gabriel Angelfire | Gallowbraid | Sir Shandlar of Eberyn |
+|-|-|-|-|
+| ![Barktooth Warbeard][Barktooth Warbeard] | ![Gabriel Angelfire][Gabriel Angelfire] | ![Gallowbraid][Gallowbraid] | ![Sir Shandlar of Eberyn][Sir Shandlar of Eberyn] | |
+
+If you want to build a deck around a particular commander that has no abilities other than being a 6/5 for 7 mana, then nobody is going to stop you... but it probably won't feel like a commander deck. You want your deck to focus around the commander's abilities (you usually don't want your deck to rely entirely on your commander, but we'll get into that more later on), so it is important to have a playstyle in mind when you think about the commander. For example, look at the table below. Each other these commanders has a pretty obvious playstyle that works well.
+
+| Uril, the Miststalker | Sliver Legion | Sram, Senior Edificer |
+|-|-|-|
+| ![Uril, the Miststalker][Uril, the Miststalker] | ![Sliver Legion][Sliver Legion] | ![Sram, Senior Edificer][Sram, Senior Edificer] |
+| Uril wants a deck that focuses on creature auras | Sliver Legion wants a deck that focuses on playing lots of slivers | Sram wants a deck centered around auras, equipments, and vehicles |
+
+So go exploring and see what catches your fancy. Sometimes it can be interesting to play a commander the non-obvious way. For example, you could play Sliver Legion as your commander, have no slivers in the deck, but play cards that turn your creatures into slivers. Every commander brings something to the table &mdash; you just have to decide what to eat.
 
 #### Pick a style that you like
 
+Another good way to find a direction for your deck is to take the opposite approach. Start with your favorite thing to do in Magic. Maybe you really like creatures with flying and you want to make a fliers deck. Maybe you like playing artifacts. Maybe your favorite thing is reanimating creatures from the graveyard. Whatever it is that you like, you probably already know some cards that could potentially fit in your deck. All you need to do is find a commander to facilitate things.
 
+At this stage, it might be best to just go to Google and look for "popular reanimator commanders" or "spellslinger commanders." You can also search on Gatherer for legendary creatures that have certain keywords in them, like "instant or sorcery," "double strike," "return to owner's hand," or "discard." Finding a commander that facilitates your style of play can be tricky, but whatever you want to do, there is probably a commander out there that can support it.
 
 #### Work with what you've got
 
-
+One final way to come up with a commander and a direction for your deck is to just look through the collection of cards that you probably have lying around. Collect up all your legendary creatures and take a look at what they do. Find some cards you already own that you think are cool and start grouping them up together. Inspiration comes from getting your hands dirty, so to speak, so just get in there and ideas will come to you. Using cards you already own can save you money and it can be satisfying to know that you built your deck up from what you had.
 
 ### Remember your goal: to have fun
 
@@ -244,6 +260,17 @@ commander
 [Ancestral Recall]: https://img.scryfall.com/cards/large/en/ovnt/2005.jpg?1523193155 "New wording of Ancestral Recall"
 [Glasses of Urza Beta]: https://img.scryfall.com/cards/large/en/leb/246.jpg?1525123591 "Old printing of Glasses of Urza"
 [Glasses of Urza]: https://img.scryfall.com/cards/large/en/me4/203.jpg?1517813031 "New printing of Glasses of Urza"
+[Command Tower]: https://img.scryfall.com/cards/large/en/c18/240.jpg?1535505276 "Command Tower"
+[Gemstone Mine]: https://img.scryfall.com/cards/large/en/tsb/119.jpg?1517813031 "Gemstone Mine"
+[Cascading Cataracts]: https://img.scryfall.com/cards/large/front/7/7/778739db-4431-4e58-91de-d2619aeef3ce.jpg?1543676358 "Cascading Cataracts"
+[Painted Bluffs]: https://img.scryfall.com/cards/large/front/8/b/8b373131-2a1d-4710-8a11-c1b366a174d4.jpg?1543676399 "Painted Bluffs"
+[Barktooth Warbeard]: https://img.scryfall.com/cards/large/en/me3/144.jpg?1517813031 "Barktooth Warbeard"
+[Gabriel Angelfire]: https://img.scryfall.com/cards/large/en/me3/148.jpg?1517813031 "Gabriel Angelfire"
+[Gallowbraid]: https://img.scryfall.com/cards/large/en/wth/70.jpg?1517813031 "Gallowbraid"
+[Sir Shandlar of Eberyn]: https://img.scryfall.com/cards/large/en/me3/174.jpg?1517813031 "Sir Shandlar of Eberyn"
+[Uril, the Miststalker]: https://img.scryfall.com/cards/large/en/arb/124.jpg?1517813031 "Uril, the Miststalker"
+[Sliver Legion]: https://img.scryfall.com/cards/large/en/fut/158.jpg?1517813031 "Sliver Legion"
+[Sram, Senior Edificer]: https://img.scryfall.com/cards/large/front/1/b/1b323e2c-59dd-4d70-9a48-b10f807bb818.jpg?1543698649 "Sram, Senior Edificer"
 
 [//]: # (website links)
 [Gatherer]: https://gatherer.wizards.com/Pages/Advanced.aspx "Gatherer"
