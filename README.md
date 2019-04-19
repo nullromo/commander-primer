@@ -89,11 +89,11 @@ This section will talk about how to build your commander deck, from how to start
 >
 > Often times the rules change and cards are not re-printed. Things like "when this creature comes into play" have been changed to "when this creature enters the battlefield." So if you're ever confused about a wording, go to Gatherer to see the official wording updated in accordance with the current rules. Many cards also have rules clarifications detailed in their Gatherer page. Look towards the bottom of [this page][Liliana Gatherer] under "Rulings" for an example.
 
-So what do we do with Gatherer? First of all, we can search for a given type of spell. Let's say we are interested in seeing if there's a way to couter spells outside of blue. In the Gatherer search page, enter `AND "counter target" spell` into the Rules Text filter, and `NOT blue` in the Colors filter. Use the Add buttons to add the search criteria. [This link][non-blue counters] is what you should see. I recommend switching the view to "Visual Spoiler" instead of "Standard." There are some screenshots below to help out.
+So what do we do with Gatherer? First of all, we can search for a given type of spell. Let's say we are interested in seeing if there's a way to couter spells outside of blue. In the Gatherer search page, enter `AND "counter target" spell` into the Rules Text filter, and `NOT blue` in the Colors filter. Use the Add buttons to add the search criteria. [This link][non-blue-counters] is what you should see. I recommend switching the view to "Visual Spoiler" instead of "Standard." There are some screenshots below to help out.
 
 | Search term entry. Quotes tell the database to use the exact order of words; unquoted terms can show up anywhere on the card | Search criteria are shown to the right. Press the Search button to search |
 |-|-|
-| ![non-blue counters search][non-blue counters search] | ![non-blue counters terms][non-blue counters terms] |
+| ![non-blue-counters-search][non-blue-counters-search] | ![non-blue-counters-terms][non-blue-counters-terms] |
 
 Notice that a lot of the cards in these results actually do contain blue mana symbols becuase of activated abilities and thanks to the _Devoid_ mechanic. In the next example we will look at one way to mitigate these false positives.
 
@@ -279,9 +279,9 @@ commander
 
 [//]: # (examples and screenshots)
 [Liliana Gatherer]: https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=398441 "Liliana, Heretical Healer Gatherer page"
-[non-blue counters]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%22counter+target%22%5d+%5bspell%5d&color=+!%5bU%5d "non-blue counterspells"
-[non-blue counters search]: /images/non-blue-counters-search.png "Search terms for non-blue counterspells"
-[non-blue counters terms]: /images/non-blue-counters-terms.png "Search terms for non-blue counterspells"
+[non-blue-counters]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%22counter+target%22%5d+%5bspell%5d&color=+!%5bU%5d "non-blue counterspells"
+[non-blue-counters-search]: /images/non-blue-counters-search.png "Search terms for non-blue counterspells"
+[non-blue-counters-terms]: /images/non-blue-counters-terms.png "Search terms for non-blue counterspells"
 [green white lands search]: /images/green-white-lands-search.png "Search terms for green and white lands"
 [green white lands terms]: /images/green-white-lands-terms.png "Search terms for green and white lands"
 [green white lands exclude]: /images/green-white-lands-exclude.png "Search terms for green and white lands"
