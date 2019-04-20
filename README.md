@@ -29,8 +29,9 @@ The deckbuilding rules are the following:
 
   - Of course, the cards in the deck do not have to exactly match the color identity of the commander. So if a deck's commander were blue, red, and black, then the deck could have cards that are just blue, cards that are red and black, cards that are just black, etc.
   
-![Ancient Grudge][Ancient Grudge] | ![Dovescape][Dovescape] | ![Blind Obedience][Blind Obedience] |
+| Ancient Grudge | Dovescape | Blind Obedience |
 |-|-|-|
+| ![Ancient Grudge][Ancient Grudge] | ![Dovescape][Dovescape] | ![Blind Obedience][Blind Obedience] |
 
 Your commander is usually what gives your deck its flavor. Most decks are structured such that the cards all interact well with the abilities of the deck's commander. Later on in the guide, we will explore what this means and how it works.
 
@@ -64,8 +65,11 @@ A big part of what makes the format fun is the in-game politics. Some games play
 
 > **History Note**: Commander is often called Elder Dragon Highlander (EDH). This is a reference to 2 things. First, when Commander was invented, the only legal commanders were the five Elder Dragons, pictured below. Second, the movie _Highlander_ popularaized the phrase "there can only be one," which refers here to the singleton nature of Commander.
 >
-> | ![Arcades Sabboth][Arcades Sabboth] | ![Chromium][Chromium] | ![Nicol Bolas][Nicol Bolas] | ![Vaevictis Asmadi][Vaevictis Asmadi] | ![Palladia-Mors][Palladia-Mors] |
-> |-|-|-|-|-|
+> | Arcades Sabboth | Chromium | Nicol Bolas |
+> |:-:|:-:|:-:|
+> | ![Arcades Sabboth][Arcades Sabboth] | ![Chromium][Chromium] | ![Nicol Bolas][Nicol Bolas] |
+> | **Vaevictis Asmadi** | **Palladia-Mors** |
+> | ![Vaevictis Asmadi][Vaevictis Asmadi] | ![Palladia-Mors][Palladia-Mors] |
 
 ### So, what is Commander?
 
@@ -105,7 +109,7 @@ You can ask Gatherer for all kinds of things. Let's say we are building a deck w
 
 Make sure to exclude lands that contain the blue, red, and black mana symbols, becuase those would be illegal in a deck with a commander whose color identity is only green and white. You should end up at [this page][green white lands], which has 30 results. Wow, that's a lot of green-white dual lands!
 
-> **NOTE**: keep in mind that there may be other non-obvious factors. In the example above, we do not see lands like Command Tower, Cascading Cataracts, Painted Bluffs, or Gemstone Mine.
+> **NOTE**: keep in mind that there may be other non-obvious factors. In the example above, we do not see lands like Command Tower, Cascading Cataracts, Painted Bluffs, or Gemstone Mine, even though they would be legal in an only green and white deck.
 >
 > | Command Tower | Gemstone Mine | Cascading Cataracts | Painted Bluffs |
 > |-|-|-|-|
@@ -127,7 +131,7 @@ If you want to build a deck around a particular commander that has no abilities 
 | Uril, the Miststalker | Sliver Legion | Sram, Senior Edificer |
 |-|-|-|
 | ![Uril, the Miststalker][Uril, the Miststalker] | ![Sliver Legion][Sliver Legion] | ![Sram, Senior Edificer][Sram, Senior Edificer] |
-| Uril wants a deck that focuses on creature auras | Sliver Legion wants a deck that focuses on playing lots of slivers | Sram wants a deck centered around auras, equipments, and vehicles |
+| Uril wants a deck that focuses on creature auras | Sliver Legion wants a deck that focuses on playing lots of slivers | Sram wants a deck centered around auras, equipment, and vehicles |
 
 So go exploring and see what catches your fancy. Sometimes it can be interesting to play a commander the non-obvious way. For example, you could play Sliver Legion as your commander, have no slivers in the deck, but play cards that turn your creatures into slivers. Every commander brings something to the table &mdash; you just have to decide what to eat.
 
@@ -158,6 +162,8 @@ And when you play
 - no spite
 - don't be afraid to kill people if it advances you
 - politics
+- don't be "afraid of combo pieces" too much
+- no whining
 
 
 ### Deckbuilding steps
@@ -245,7 +251,6 @@ Time to play
 MTG
 format
 commander
-
 
 
 
