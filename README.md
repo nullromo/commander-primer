@@ -62,7 +62,6 @@ Commander is best played with 4 players at a time. If a player loses the game, a
 
 A big part of what makes the format fun is the in-game politics. Some games play out relatively evenly, while other games see one player gain an early advantage and get teamed up on. The fun of commander is that even though your deck has the same cards in it, no two games play out the same way. Often in formats like Standard, which has a very narrow metagame, matchups can be deterministic and the same matchup will often play out the same way. This does not mean that Standard is boring, but it's definitely a different feeling and Commander has such a wide variety of things going on that it never seems to get boring.
 
-
 > **History Note**: Commander is often called Elder Dragon Highlander (EDH). This is a reference to 2 things. First, when Commander was invented, the only legal commanders were the five Elder Dragons, pictured below. Second, the movie _Highlander_ popularaized the phrase "there can only be one," which refers here to the singleton nature of Commander.
 >
 > | Arcades Sabboth | Chromium | Nicol Bolas |
@@ -156,29 +155,29 @@ Now that you have a starting point, it's important to remember a few things. Whe
 
 #### Don't play combo
 
-As fun as you might think it is to use Elvish Spirit Guide to Flash in Protean Hulk on turn 1 and win the game with Carrion Feeder, Karmic Guide, Academy Rector, Grand Abolisher, Animate Dead, Sylvan Safekeeper, Mikaeus, the Unhallowed, and Walking Ballista (see following note for details), it's certainly not fun for any of your opponents, and after you do this a few times, losing all your friends in the process, you will realize that it is, in fact, not fun.
+As fun as you might think it is to use Elvish Spirit Guide to Flash in Protean Hulk on turn 1 and win the game with Carrion Feeder, Karmic Guide, Academy Rector, Grand Abolisher, Animate Dead, Mikaeus, the Unhallowed, and Walking Ballista (see following note for details), it's certainly not fun for any of your opponents, and after you do this a few times, losing all your friends in the process, you will realize that it is, in fact, not fun.
 
 > Protean Hulk has long been a combo piece for competative EDH players, and it has many, many chains that can win the game instantly when its ability triggers.
 >
-> | Elvish Spirit Guide | Flash | Protean Hulk | |
-> |-|-|-|-|
-> | ![Elvish Spirit Guide][Elvish Spirit Guide] | ![Flash][Flash] | ![Protean Hulk][Protean Hulk] |
+> | Island | Elvish Spirit Guide | Flash | Protean Hulk |
+> |:-:|:-:|:-:|:-:|
+> | ![Island][Island] | ![Elvish Spirit Guide][Elvish Spirit Guide] | ![Flash][Flash] | ![Protean Hulk][Protean Hulk] |
 > | **Carrion Feeder** | **Karmic Guide** | **Academy Rector** | **Grand Abolisher** |
 > | ![Carrion Feeder][Carrion Feeder] | ![Karmic Guide][Karmic Guide] | ![Academy Rector][Academy Rector] | ![Grand Abolisher][Grand Abolisher] |
 >
-> After playing an Island and your trusty Elvish Spirit Guide, step 1 in the combo is to play Flash to get Protean Hulk into play. Then when you don't pay Protean Hulk's mana cost, it dies, triggering its ability. You use the ability to search up Karmic Guide and Carrion Feeder, which allows you to reanimate Protean Hulk and get a free sacrifice outlet into play.
+> After playing an Island and exiling Elvish Spirit Guide, step 1 in the combo is to play Flash to get Protean Hulk into play. Then when you don't pay Protean Hulk's mana cost, it dies, triggering its ability. You use the ability to search up Karmic Guide and Carrion Feeder, which allows you to reanimate Protean Hulk and get a sacrifice outlet into play.
 >
 > Step 2 is to activate Carrion Feeder's ability, sacrificing Protean Hulk again. This time, you search for Academy Rector and Grand Abolisher.
 >
-> | Animate Dead | Sylvan Safekeeper | Mikaeus, the Unhallowed | Walking Ballista |
-> |-|-|-|-|
-> | ![Animate Dead][Animate Dead] | ![Sylvan Safekeeper][Sylvan Safekeeper] | ![Mikaeus, the Unhallowed][Mikaeus, the Unhallowed] | ![Walking Ballista][Walking Ballista] |
+> | Animate Dead | Mikaeus, the Unhallowed | Walking Ballista |
+> |-|-|-|
+> | ![Animate Dead][Animate Dead] | ![Mikaeus, the Unhallowed][Mikaeus, the Unhallowed] | ![Walking Ballista][Walking Ballista] |
 >
 > Step 3: sacrifice Academy Rector using Carrion Feeder, and search for Animate Dead. Choose Protean Hulk as your target for Animate Dead.
 >
-> For step 4, sacrifice Protean Hulk one last time, now searching for Mikaeus, the Unhallowed and Walking Ballista. When Walking Ballista enters the battlefield, it will immediately die, but it has Undying, thanks to Mikaeus, the Unhallowed. This means it will come back to the battlefield with a +1/+1 counter on it. Now just activate it's second ability to deal 1 damage to an opponent. Walking Ballista dies again, but comes back again because it has Undying. Do that 119 more times and you win the game. Oh and you have Sylvan Safekeeper and Grand Abolisher out to protect you, just in case somebody even thinks about messing with your amazing, totally original, fun, interesting, cool combo that you found on the internet.
+> For step 4, sacrifice Protean Hulk one last time, now searching for Mikaeus, the Unhallowed and Walking Ballista. When Walking Ballista enters the battlefield, it will immediately die, but it has Undying, thanks to Mikaeus, the Unhallowed. This means it will come back to the battlefield with a +1/+1 counter on it. Now just activate it's second ability to deal 1 damage to an opponent. Walking Ballista dies again, but comes back again because it has Undying. Do that 119 more times and you win the game. Oh and you have Grand Abolisher out to protect you, just in case somebody even thinks about messing with your amazing, totally original, fun, interesting, cool combo that you found on the internet.
 
-Yes, Magic has combos. Yes, they are cool. But leave infinite combos at the door when you come to play Commander, because nobody likes playing a game for 45 minutes only for someone to "accidentally win" out of nowhere.
+Not all infinite combos are this convoluted, of course, and they don't always happen on turn 1. But that doesn't make them any more fun. Yes, Magic has combos. Yes, they are cool. But leave infinite combos at the door when you come to play Commander, because nobody likes playing a game for 45 minutes only for someone to "accidentally win" out of nowhere.
 
 #### Don't be a troll
 
@@ -192,7 +191,7 @@ It's not that you shouldn't play these cards, it's just that you should have a g
 
 #### Non-linear is better
 
-In general, you are less likely to get bored when you play a non-linear deck. Linear decks do the same thing every game, and thus can get stale after many games. The linearity of a deck is not really measurable, but with experience, you will figure it out. A good way to decrease linearity is to add more interactive spells.
+In general, you are less likely to get bored when you play a "non-linear" deck. "Linear" decks do the same thing every game, and thus can get stale after many games. The linearity of a deck is not really measurable, but with experience, you will figure it out. A good way to decrease linearity is to add more interactive spells.
 
 ### Deckbuilding steps
 
@@ -208,33 +207,178 @@ Let's get started.
 
 #### Step 1: Think about it
 
-- think about it. If you picked a commander, what cards go with it? If you picked a style, what are the best cards? Use gatherer
+If you used the method of choosing a commander to build around, you probably have some sort of idea about what cards go with it. If you're playing Talrand, Sky Summoner, you're probably thinking of mono-blue instants and sorceries. If you picked Animar, Soul of Elements, you're probably thinking mostly creatures (probably ones that have few colored mana symbols in their costs). If you're interested in Rakdos, the Showstopper, you're probably thinking about Demons, Devils, and Imps.
+
+| Talrand, Sky Summoner | Animar, Soul of Elements | Rakdos, the Showstopper |
+|-|-|-|
+| ![Talrand, Sky Summoner][Talrand, Sky Summoner] | ![Animar, Soul of Elements][Animar, Soul of Elements] |![Rakdos, the Showstopper][Rakdos, the Showstopper] |
+
+If you're going with the method of choosing a playstyle, what are the best cards? No doubt you already have some in mind. Use Gatherer to find some more.
 
 #### Step 2: Start a decklist
 
-- make decklist on MTGGoldfish
-- add cards you already have/like
+Now that some ideas are swirling around in your brain, it's time to write them down.
+
+[MTGGoldfish] is the second resource we will introduce. It is an amazing site that can satisfy most of your MTG needs, but for now we'll just talk about the decklist feature.
+
+Go onto MTGGoldfish and create an account if you don't have one already. Then navigate to `Tools > My Decks` at the top of the site.
+
+| Click on `Tools > My Decks` to access the Deck Manager |
+|-|
+| ![My Decks][My Decks] |
+
+This should bring you to the Deck Manager page. From here, click on `Create New Deck` to start a new decklist.
+
+| The Deck Manager page. Use the `Create New Deck` button to start your first decklist |
+|-|
+| ![Deck Manager][Deck Manager] |
+
+You will then be on the Deck Editor page, where you can begin to assemble your decklist. You should give your deck a good name (often just the name of the commander) so that you can find it later. The `Description` box can be useful to write notes for yourself while you are constructing the deck, and it can be good after the deck is finished as well. For the `Format`, select "Free Form" for now; later on you can change it to Commander. You can check the `Private` box if you don't want other people to see your deck. The `Use Specific Card Versions` box is not important right now.
+
+| The Deck Editor page. Fill out the information at the top first |
+|-|
+| ![Deck Editor][Deck Editor] |
+
+Now it's time to add some cards. If you begin typing the name of a card into the `Card` box, suggestions should show up (see images below). Select a suggestion and click `Add Card`. The card's name will be added to the decklist on the left. You can also just type the names of cards into the decklist, and as long as they are formatted properly and spelled correctly, it will also work. Now click `Update Preview` to update the preview of the deck.
+
+| Type in a card name and select a suggestion | Click the `Add Card` button to add it |
+|-|-|
+| ![Suggestion][Suggestion] | ![Add Card][Add Card] |
+
+The deck preview on the right shows all the cards in the list and their prices. It also groups the cards by type. The total cost of the deck will appear in the top right.
+
+| Use the `Update Preview` button to update the decklist so that you can see your cards |
+|-|
+| ![Update Preview][Update Preview] |
+
+> **Note**: MTGGoldfish uses both the prices of real cards and the Magic: The Gathering Online (MTGO or MODO \[its old name: Magic Online with Digital Objects\]) prices. The orange numbers are the online prices in Event Tickets. Discussion of MTGO is out of the scope of this guide.
+
+When you hover your cursor over the name of a card in the preview, a picture of it should appear. You can also add cards to the sideboard by clicking on the `Sideboard` tab on the top of the decklist. Commander decks don't have sideboards, though, so this is usually not important unless you want another section in your deck while you're working on it.
+
+Add all the cards you thought of in Step 1. Go crazy. Just add a bunch of stuff. It's best to have everything laid out in front of you so that you know what you're working with. The next few steps will guide you through what else to add beyond your initial thoughts.
 
 #### Step 3: Get some inspiration
 
-- go on edhrec for inspiration
-- add cards you like from there
+Now that you have a place to put your cards, and you've entered in a few things (maybe you have 150 card ideas already, and maybe you've just go 6 or 10; it doesn't matter), it's time to go deeper.
+
+[EDHREC] is our third website. EDHREC is a great site to look to for inspiration. Type the name of your commander into the search bar at the top and click the search button or click a suggestion when it comes up.
+
+There's a lot of stuff on the page. Ignore most of it.
+
+Scroll down to where it has pictures of Magic cards. Ah, that's better. EDHREC pulls data from a number of different websites and uses it to compile information specific to Commander. If you don't mark your deck as private, then it will probably end up in the EDHREC database. As you scroll down the page, you'll see the sections `New Cards`, `Signature Cards`, `Top Cards`, `Creatures`, `Instants`, `Sorceries`, `Artifacts`, `Enchantments`, `Planeswalkers`, and `Lands`. Each section is populated with the most popular cards in that category based on data from other decks.
+
+You won't be copying your deck directly from EDHREC, but you will most definitely find cards here that you like and that you didn't know about before. Plus the approximate prices are shown below the cards, so you can tell if something is way out of budget or not. Seeing some of these card suggestions will get your creative juices flowing even more, and you should record all the cards that you think look interesting or that you might want to play using your MTGGoldfish decklist. Don't worry about filling up the decklist; the general approach here is amass, then trim.
 
 #### Step 4: Nitty-gritty searches
 
-- as you go, you find things and use gatherer
+Often what will happen at this point, is you will see a card that works particularly well with a certain commander, and you will be thinking, hey, wouldn't it be nice if there were more cards like that? For example, you may have been building a deck around the Prowess mechanic, but you just realized that artifacts and enchantments trigger it, and before you were only looking for instants and sorceries. Time to head back to Gatherer!
 
-> **Remember the banlist!** There are certain
+Searching Gatherer is free, so do it a lot. Get specific. Add 100 filters. Go crazy. There are thousands of Magic cards, but there are only three instants that are both white and red and reference both creatures and opponents and have a converted mana cost of exactly 3.
 
-#### Step 5: Staples
+> **Remember [the banlist]!** There are certain cards that aren't allowed in Commander. Make sure you aren't selecting any cards on the list. It's only about 75 cards.
 
-What to include?
-- necessary parts of a deck
-- staples
+#### Step 5: Deck balance and staples
+
+Now that your deck is shaping up and you've collected a bunch of interesting cards, it's time to talk about how to actually build the deck. A good mix for commander decks is usually about 50 mana sources, about 10 generic catch-all spells, and about 40 on-theme fun cards.
+
+This step will introduce a lot of cards, including some "format staples" that show up everywhere. Don't be afraid to use popular cards; they are popular for a reason!
+
+##### Ramp
+
+You need mana to cast spells. In Commander, "ramp," or getting mana sources onto the battlefield faster than just one land per turn, is very important. Having more mana means casting more spells, which is always more fun. Depending on the average cost of spells in your deck, and on other factors, it's usually correct to have about 40 lands and about 10 nonland ramp cards. Nonland ramp comes in many different forms. Cards like Rampant Growth, Cultivate, Kodama's Reach, and Explosive Vegetation are great ways to get extra lands out onto the battlefield.
+
+| Rampant Growth | Cultivate | Kodama's Reach | Explosive Vegetation |
+|:-:|:-:|:-:|:-:|
+| ![Rampant Growth][Rampant Growth] | ![Cultivate][Cultivate] | ![Kodama's Reach][Kodama's Reach] | ![Explosive Vegetation][Explosive Vegetation] |
+
+Artifact ramp is popular if you don't have access to green (or even if you do). Great cards include Thran Dynamo, Diamonds (there is one for each color), Commander's Sphere, Chromatic Lantern, Coalition Relic, Signets (all ten color pairs), and, of course, the omnipresent and all-powerful Sol Ring.
+
+| Thran Dynamo | Charcoal Diamond | Sky Diamond |
+|:-:|:-:|:-:|
+| ![Thran Dynamo][Thran Dynamo] | ![Charcoal Diamond][Charcoal Diamond] | ![Sky Diamond][Sky Diamond] |
+| **Commander's Sphere** | **Chromatic Lantern** | **Coalition Relic** |
+| ![Commander's Sphere][Commander's Sphere] | ![Chromatic Lantern][Chromatic Lantern] | ![Coalition Relic][Coalition Relic] |
+| **Simic Signet** | **Azorius Signet** | **Sol Ring** |
+| ![Simic Signet][Simic Signet] | ![Azorius Signet][Azorius Signet] | ![Sol Ring][Sol Ring] |
+
+In addition to searching out lands and utilizing "mana rocks," there are also mana doublers, like Crypt Ghast, Zendikar Resurgent, Caged Sun, and Extraplanar Lens. These can be especially powerful, but tend to draw more removal from your opponents (because they are so good).
+
+| Crypt Ghast | Zendikar Resurgent | Caged Sun | Extraplanar Lens |
+|-|-|-|-|
+| ![Crypt Ghast][Crypt Ghast] | ![Zendikar Resurgent][Zendikar Resurgent] | ![Caged Sun][Caged Sun] | ![Extraplanar Lens][Extraplanar Lens] |
+
+##### Removal
+
+As far as catch-all spells, it's a good idea to have card draw, removal, and answers to other people's threats. Having some solid removal spells like Path to Exile/Swords to Plowshares, Rapid Hybridization/Pongify, and Oblivion Ring/Banishing Light is a good idea. You want to be able to interact with other people's stuff.
+
+| Path to Exile | Pongify | Oblivion Ring |
+|:-:|:-:|:-:|
+| ![Path to Exile][Path to Exile] | ![Pongify][Pongify] | ![Oblivion Ring][Oblivion Ring] |
+| **Swords to Plowshares** | **Rapid Hybridization** | **Banishing Light** |
+| ![Swords to Plowshares][Swords to Plowshares] | ![Rapid Hybridization][Rapid Hybridization] | ![Banishing Light][Banishing Light] |
+
+It's also a good idea to have some artifact and enchantment removal. Good cards are ones that are versitile, so anything that says "target permanent" like Vindicate or Anguished Unmaking is good. Cards like Violent Ultimatum and Decimate are good because they can hit multiple things at once. Modal removal spells like Crush Contraband and Casualties of War are even better because you don't have to have more than one target. Also, keep in mind that instants are usually better than sorceries, even if they cost a bit more.
+
+| Vindicate | Violent Ultimatum | Crush Contraband |
+|:-:|:-:|:-:|
+| ![Vindicate][Vindicate] | ![Violent Ultimatum][Violent Ultimatum] | ![Crush Contraband][Crush Contraband] |
+| **Anguished Unmaking** | **Decimate** | **Casualties of War** |
+| ![Anguished Unmaking][Anguished Unmaking] | ![Decimate][Decimate] | ![Casualties of War][Casualties of War] |
+
+Another important form of removal is so-called "board wipes" or "wraths" (named after Wrath of God). These are very important because when things get out of hand, they act as a hard reset. Damnation is another popular choice. Some wraths are damage-based, like Blasphemous Act. Evacuation doesn't kill creatures, but it can eliminate tokens or just clear the board temporarily.
+
+| Wrath of God | Damnation | Blasphemous Act | Evacuation |
+|-|-|-|-|
+| ![Wrath of God][Wrath of God] | ![Damnation][Damnation] | ![Blasphemous Act][Blasphemous Act] | ![Evacuation][Evacuation] |
+
+It's sometimes important to have a wrath for artifacts, enchantments, and/or planeswalkers as well. Austere Command and Merciless Eviction can selectively destroy or exile a certain type of permenant, and Back to Nature and Shatterstorm are great ways to clear away all artifacts or enchantments.
+
+| Austere Command | Merciless Eviction | Back to Nature | Shatterstorm |
+|-|-|-|-|
+| ![Austere Command][Austere Command] | ![Merciless Eviction][Merciless Eviction] | ![Back to Nature][Back to Nature] | ![Shatterstorm][Shatterstorm] |
+
+Counterspells can also be important, but are usually only accessible if your commander is blue. Great counterspells include Counterspell, Summary Dismissal, Cryptic Command, and Draining Whelk, but there are, of course, many others.
+
+| Counterspell | Summary Dismissal | Cryptic Command | Draining Whelk |
+|-|-|-|-|
+| ![Counterspell][Counterspell] | ![Summary Dismissal][Summary Dismissal] | ![Cryptic Command][Cryptic Command] | ![Draining Whelk][Draining Whelk] |
+
+##### Card draw
+
+Besides removal, you want to have some card draw. There are many, many ways to draw extra cards, whether it's Skullclamp, Greed, Wheel of Fortune, or just straigt-up Opportunity, you need some way to refill your hand once you've run out of spells to cast. Don't underestimate the power of filtering, looting, scrying, or just plain drawing cards.
+
+| Skullclamp | Greed | Wheel of Fortune | Opportunity |
+|-|-|-|-|
+| ![Skullclamp][Skullclamp] | ![Greed][Greed] | ![Wheel of Fortune][Wheel of Fortune] | ![Opportunity][Opportunity] |
+
+##### Multi-function spells
+
+Commander is all about value. Cards that can serve multiple purposes or cards that have repeatable effects are especially valuable. Mind Stone, Hedron Archive, and Dreamstone Hedron are great examples of multi-function cards. They can be used to ramp you up, and then when you don't need them anymore (or when you're desperate for more cards) you can cash them in. 
+
+| Mind Stone | Hedron Archive | Dreamstone Hedron | 
+|-|-|-|
+| ![Mind Stone][Mind Stone] | ![Hedron Archive][Hedron Archive] | ![Dreamstone Hedron][Dreamstone Hedron] |
+
+Repeatable value over time is also very good to have. This can look like many things. For example, the Siege cycle cards trigger every turn. These types of cards get better and better the longer they sit out on the battlefield. Other cards that trigger over and over or can be used over and over, like Lifecrafter's Bestiary, Deathreap Ritual, Soul Warden, or Sensei's Divining Top can lead to a big advantage if they stay on the battlefield for a while. Cards like this are like risk-free investments. They just sit around and accumulate value.
+
+| Citadel Siege | Monastary Siege | Palace Siege |
+|:-:|:-:|:-:|
+| ![Citadel Siege][Citadel Siege] | ![Monastary Siege][Monastary Siege] | ![Palace Siege][Palace Siege] |
+| **Outpost Siege** | **Frontier Siege** | **Lifecrafter's Bestiary** |
+| ![Outpost Siege][Outpost Siege] | ![Frontier Siege][Frontier Siege] | ![Lifecrafter's Bestiary][Lifecrafter's Bestiary] |
+| **Deathreap Ritual** | **Soul Warden** | **Sensei's Divining Top** |
+| ![Deathreap Ritual][Deathreap Ritual] | ![Soul Warden][Soul Warden] | ![Sensei's Divining Top][Sensei's Divining Top] |
 
 #### Step 6: Control yourself
 
-- some meme cards okay, but not too many
+It can be fun to include one or two funny or especially narrow cards that act kind of like "gotcha!" cards, but don't go throwing more than a couple into your deck. Common examples include Mana Tithe, Stifle, or Ricochet Trap. These cards aren't actually that good because they often don't do a whole lot and they require very specific situations to be good.
+
+|
+Mana Tithe |
+Stifle |
+Ricochet Trap |
+|-|-|-|
+| ![Mana Tithe][Mana Tithe] | ![Stifle][Stifle] | ![Ricochet Trap][Ricochet Trap] |
 
 #### Step 7: Organization
 
@@ -257,6 +401,7 @@ Other things to keep in mind
 ## Time to buy the cards
 
 Buy the cards
+- versions on mtggoldfish editor
 - copy decklist
 - select versions in cart optimizer
 - optimize 3 times
@@ -318,6 +463,7 @@ commander
 [Uril, the Miststalker]: https://img.scryfall.com/cards/large/en/arb/124.jpg?1517813031 "Uril, the Miststalker"
 [Sliver Legion]: https://img.scryfall.com/cards/large/en/fut/158.jpg?1517813031 "Sliver Legion"
 [Sram, Senior Edificer]: https://img.scryfall.com/cards/large/front/1/b/1b323e2c-59dd-4d70-9a48-b10f807bb818.jpg?1543698649 "Sram, Senior Edificer"
+[Island]: https://img.scryfall.com/cards/large/en/bfz/258.jpg?1517813031 "Island"
 [Elvish Spirit Guide]: https://img.scryfall.com/cards/large/en/prm/65654.jpg?1517813031 "Elvish Spirit Guide"
 [Flash]: https://img.scryfall.com/cards/large/en/a25/57.jpg?1521725488 "Flash"
 [Protean Hulk]: https://img.scryfall.com/cards/large/front/d/a/dac2252b-2eb4-458d-b838-860ce741a82d.jpg?1551119594 "Protean Hulk"
@@ -333,16 +479,90 @@ commander
 [Scrambleverse]: https://img.scryfall.com/cards/large/en/m12/153.jpg?1517813031 "Scrambleverse"
 [Dimensional Breach]: https://img.scryfall.com/cards/large/en/scg/9.jpg?1517813031 "Dimensional Breach"
 [Cataclysm]: https://img.scryfall.com/cards/large/en/tpr/8.jpg?1517813031 "Cataclysm"
+[Crypt Ghast]: https://img.scryfall.com/cards/large/en/c14/139.jpg?1530677866 "Crypt Ghast"
+[Zendikar Resurgent]: https://img.scryfall.com/cards/large/en/c17/160.jpg?1517813031 "Zendikar Resurgent"
+[Caged Sun]: https://img.scryfall.com/cards/large/en/cm2/178.jpg?1534112610 "Caged Sun"
+[Extraplanar Lens]: https://img.scryfall.com/cards/large/en/mrd/169.jpg?1517813031 "Extraplanar Lens"
+[Commander's Sphere]: https://img.scryfall.com/cards/large/en/c18/200.jpg?1535504702 "Commander's Sphere"
+[Chromatic Lantern]: https://img.scryfall.com/cards/large/front/e/a/ea123356-3055-4e42-b816-ac3c4e9087d1.jpg?1538880985 "Chromatic Lantern"
+[Coalition Relic]: https://img.scryfall.com/cards/large/en/dde/54.jpg?1517813031 "Coalition Relic"
+[Rampant Growth]: https://img.scryfall.com/cards/large/en/mir/235.jpg?151781303 "Rampant Growth"
+[Cultivate]: https://img.scryfall.com/cards/large/en/cm2/135.jpg?1534112100 "Cultivate"
+[Kodama's Reach]: https://img.scryfall.com/cards/large/front/1/0/102d20e6-5179-44b7-9abd-f1defc15ca6a.jpg?1547517639 "Kodama's Reach"
+[Explosive Vegetation]: https://img.scryfall.com/cards/large/en/c18/144.jpg?1535503933 "Explosive Vegetation"
+[Thran Dynamo]: https://img.scryfall.com/cards/large/en/ima/230.jpg?1530592677 "Thran Dynamo"
+[Charcoal Diamond]: https://img.scryfall.com/cards/large/en/c14/235.jpg?1530678599 "Charcoal Diamond"
+[Sky Diamond]: https://img.scryfall.com/cards/large/en/c14/269.jpg?1530678899 "Sky Diamond"
+[Simic Signet]: https://img.scryfall.com/cards/large/en/cm2/215.jpg?1534113028 "Simic Signet"
+[Azorius Signet]: https://img.scryfall.com/cards/large/en/c18/196.jpg?1535504653 "Azorius Signet"
+[Mind Stone]: https://img.scryfall.com/cards/large/en/c18/210.jpg?1535504843 "Mind Stone"
+[Hedron Archive]: https://img.scryfall.com/cards/large/en/c18/206.jpg?1535504778 "Hedron Archive"
+[Dreamstone Hedron]: https://img.scryfall.com/cards/large/en/c18/204.jpg?1535504753 "Dreamstone Hedron"
+[Sol Ring]: https://img.scryfall.com/cards/large/en/c18/222.jpg?1535505021 "Sol Ring"
+[Path to Exile]: https://img.scryfall.com/cards/large/en/e02/3.jpg?1524753609 "Path to Exile"
+[Swords to Plowshares]: https://img.scryfall.com/cards/large/en/bbd/110.jpg?1529061986 "Swords to Plowshares"
+[Rapid Hybridization]: https://img.scryfall.com/cards/large/front/9/1/917df0f5-af77-4e8a-af81-2f78a432b520.jpg?1551119698 "Rapid Hybridization"
+[Pongify]: https://img.scryfall.com/cards/large/en/c14/120.jpg?1530677726 "Pongify"
+[Oblivion Ring]: https://img.scryfall.com/cards/large/en/td0/B8.jpg?1517813031 "Oblivion Ring"
+[Banishing Light]: https://img.scryfall.com/cards/large/en/cm2/18.jpg?1534110665 "Banishing Light"
+[Vindicate]: https://img.scryfall.com/cards/large/en/a25/219.jpg?1521725862 "Vindicate"
+[Anguished Unmaking]: https://img.scryfall.com/cards/large/en/soi/242.jpg?1517813031 "Anguished Unmaking"
+[Violent Ultimatum]: https://img.scryfall.com/cards/large/en/ala/206.jpg?1517813031 "Violent Ultimatum"
+[Decimate]: https://img.scryfall.com/cards/large/en/c18/175.jpg?1535504341 "Decimate"
+[Crush Contraband]: https://img.scryfall.com/cards/large/front/1/3/13e162b3-2e5a-4235-a2a7-1c8e3e9f2c19.jpg?1538878225 "Crush Contraband"
+[Casualties of War]: https://img.scryfall.com/cards/large/front/0/8/08fc5e50-c6f7-41ec-815a-5667eefded78.jpg?1555741203 "Casualties of War"
+[Skullclamp]: https://img.scryfall.com/cards/large/en/c17/222.jpg?1517813031 "Skullclamp"
+[Greed]: https://img.scryfall.com/cards/large/en/c13/79.jpg?1517813031 "Greed"
+[Wheel of Fortune]: https://img.scryfall.com/cards/large/en/me4/140.jpg?1517813031 "Wheel of Fortune"
+[Opportunity]: https://img.scryfall.com/cards/large/en/7ed/91.jpg?1517813031 "Opportunity"
+[Citadel Siege]: https://img.scryfall.com/cards/large/en/cm2/21.jpg?1534110701 "Citadel Siege"
+[Monastary Siege]: https://img.scryfall.com/cards/large/en/c17/88.jpg?1517813031 "Monastary Siege"
+[Palace Siege]: https://img.scryfall.com/cards/large/en/c17/119.jpg?1517813031 "Palace Siege"
+[Outpost Siege]: https://img.scryfall.com/cards/large/en/c17/139.jpg?1517813031 "Outpost Siege"
+[Frontier Siege]: https://img.scryfall.com/cards/large/en/c17/150.jpg?1517813031 "Frontier Siege"
+[Lifecrafter's Bestiary]: https://img.scryfall.com/cards/large/front/7/4/7439a855-4041-4d14-8edf-6741a734e55d.jpg?1543700866 "Lifecrafter's Bestiary"
+[Deathreap Ritual]: https://img.scryfall.com/cards/large/en/c18/174.jpg?1535504328 "Deathreap Ritual"
+[Soul Warden]: https://img.scryfall.com/cards/large/en/mm3/24.jpg?1517813031 "Soul Warden"
+[Sensei's Divining Top]: https://img.scryfall.com/cards/large/en/chk/268.jpg?1517813031 "Sensei's Divining Top"
+[Wrath of God]: https://img.scryfall.com/cards/large/en/ema/38.jpg?1519048065 "Wrath of God"
+[Damnation]: https://img.scryfall.com/cards/large/en/mm3/63.jpg?1517813031 "Damnation"
+[Blasphemous Act]: https://img.scryfall.com/cards/large/en/c18/120.jpg?1535503611 "Blasphemous Act"
+[Evacuation]: https://img.scryfall.com/cards/large/en/c16/91.jpg?1517813031 "Evacuation"
+[Austere Command]: https://img.scryfall.com/cards/large/en/ima/10.jpg?1530591620 "Austere Command"
+[Merciless Eviction]: https://img.scryfall.com/cards/large/en/cm2/160.jpg?1534112392 "Merciless Eviction"
+[Back to Nature]: https://img.scryfall.com/cards/large/en/m15/169.jpg?1517813031 "Back to Nature"
+[Shatterstorm]: https://img.scryfall.com/cards/large/en/6ed/205.jpg?1517813031 "Shatterstorm"
+[Counterspell]: https://img.scryfall.com/cards/large/en/btd/6.jpg?1517813031 "Counterspell"
+[Summary Dismissal]: https://img.scryfall.com/cards/large/en/emn/75.jpg?1517813031 "Summary Dismissal"
+[Cryptic Command]: https://img.scryfall.com/cards/large/en/ima/48.jpg?1530591840 "Cryptic Command"
+[Draining Whelk]: https://img.scryfall.com/cards/large/en/tsp/57.jpg?1517813031 "Draining Whelk"
+[Talrand, Sky Summoner]: https://img.scryfall.com/cards/large/front/8/3/83c74e76-c6ce-4107-8816-0be8c20d7617.jpg?1547516612 "Talrand, Sky Summoner"
+[Animar, Soul of Elements]: https://img.scryfall.com/cards/large/en/pz1/93.jpg?1517813031 "Animar, Soul of Elements"
+[Rakdos, the Showstopper]: https://img.scryfall.com/cards/large/front/4/e/4e3c30c7-c52e-41a0-b7c2-21d39c05160b.jpg?1549414926 "Rakdos, the Showstopper"
+[Mana Tithe]: https://img.scryfall.com/cards/large/en/plc/25.jpg?1517813031 "Mana Tithe"
+[Stifle]: https://img.scryfall.com/cards/large/en/scg/52.jpg?1517813031 "Stifle"
+[Ricochet Trap]: https://img.scryfall.com/cards/large/en/wwk/87.jpg?1530592532 "Ricochet Trap"
 
 [//]: # (website links)
 [Gatherer]: https://gatherer.wizards.com/Pages/Advanced.aspx "Gatherer"
+[MTGGoldfish]: https://www.mtggoldfish.com/ "MTGGoldfish"
+[EDHREC]: https://edhrec.com/ "EDHREC"
 
-[//]: # (examples and screenshots)
+[//]: # (examples)
 [Liliana Gatherer]: https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=398441 "Liliana, Heretical Healer Gatherer page"
 [non-blue-counters]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%22counter+target%22%5d+%5bspell%5d&color=+!%5bU%5d "non-blue counterspells"
 [non-blue-counters-search]: /images/non-blue-counters-search.png "Search terms for non-blue counterspells"
 [non-blue-counters-terms]: /images/non-blue-counters-terms.png "Search terms for non-blue counterspells"
+[green white lands]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%7bG%7d%5d+%5b%7bW%7d%5d+!%5b%7bB%7d%5d+!%5b%7bR%7d%5d+!%5b%7bU%7d%5d&type=+%5bland%5d "Search for green and white lands"
+[the banlist]: https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted#commander "Commander banlist"
+
+[//]: # (screenshots)
 [green white lands search]: /images/green-white-lands-search.png "Search terms for green and white lands"
 [green white lands terms]: /images/green-white-lands-terms.png "Search terms for green and white lands"
 [green white lands exclude]: /images/green-white-lands-exclude.png "Search terms for green and white lands"
-[green white lands]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%7bG%7d%5d+%5b%7bW%7d%5d+!%5b%7bB%7d%5d+!%5b%7bR%7d%5d+!%5b%7bU%7d%5d&type=+%5bland%5d "Search for green and white lands"
+[My Decks]: /images/my-decks.png "Access the Deck Manager"
+[Deck Manager]: /images/deck-manager.png "The Deck Manager page"
+[Deck Editor]: /images/deck-editor.png "The Deck Editor page"
+[Suggestion]: /images/suggestion.png "Choose a suggestion"
+[Add Card]: /images/add-card.png "Add it to the list"
+[Update Preview]: /images/update-preview.png "Update the deck preview"
