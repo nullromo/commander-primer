@@ -403,7 +403,7 @@ Back on your MTGGoldfish decklist, once you've saved it, you should see the opti
 |-|
 | ![Paste or Upload to Deckstats][Paste or Upload to Deckstats] | 
 
-Make sure to leave the `Interpret card names without a number as "1x card name"` box checked. Now you should see all the cards show up. Scroll down to the bottom of the list and use the `Create new subsection` button to create a new category of card for your deck. For example, create a category called "Ramp."
+Now you should see all the cards show up. Scroll down to the bottom of the list and use the `Create new subsection` button to create a new category of card for your deck. For example, create a category called "Ramp."
 
 There's a slightly funny thing with Deckstats where the checkboxes do not show up properly. Go to the bottom of the list and click the `Select:` button to reveal a column of checkboxes next to all the card names.
 
