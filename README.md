@@ -405,7 +405,7 @@ Back on your MTGGoldfish decklist, once you've saved it, you should see the opti
 
 Now you should see all the cards show up. Scroll down to the bottom of the list and use the `Create new subsection` button to create a new category of card for your deck. For example, create a category called "Ramp."
 
-There's a slightly funny thing with Deckstats where the checkboxes do not show up properly. Go to the bottom of the list and click the `Select:` button to reveal a column of checkboxes next to all the card names.
+There's a slightly funny thing with Deckstats where the checkboxes do not show up at first. Go to the bottom of the list and click the `Select:` button to reveal a column of checkboxes next to all the card names.
 
 | Create a new category within your deck, use the `Select:` button, and use the `Edit(#)` button |
 |-|
@@ -419,7 +419,9 @@ Once all the ramp cards are selected, use the `Edit(#)` button to move them to t
 
 Now all the ramp cards in your deck are in one place. Continue to do this process with new categories until all the cards in the deck are categorized. Create whatever categories you think are useful. For example, you could have categories like "Card Advantage," "Removal," and "Big Bombs."
 
-The purpose of this exercise is to get you thinking about why you have the cards you have. It is an excellent way to realize that you are trying to put 45 spells that do the same thing in your deck and that you should probably cut some of them. Think about the ratios of the categories. Do you want way more creatures than spells? Is there a reason to have a certain critical mass of artifacts? It will really depend on your commander, your playstyle, or maybe your budget.
+> You can also drag cards between categories.
+
+The purpose of this exercise is to get you thinking about why you have the cards you have. It is an excellent way to realize that you are trying to put 45 spells that do the same thing in your deck and that you should probably cut some of them. Think about the ratios of the categories. Do you want way more creatures than spells? Is there a reason to have a certain critical mass of artifacts? It will all depend on your commander, your playstyle, and maybe your budget.
 
 #### Step 8: Trim, trim, trim
 
@@ -429,7 +431,7 @@ You will probably have a lot more than 100 cards picked out and categorized at t
 
 Your budget may get in the way. This is normal. Sometimes it is useful to make a separate MTGGoldfish decklist ("My Commander - Wishlist" or something) to keep track of the cards you really want but that may be too expensive.
 
-Sometimes people like to make decks that follow a particular theme. Some crazy ones include "all nonland cards in the deck depict a character wearing a cape or a cloak," "All cards in the deck start with the letter 'S,'" and "All cards in the deck cost exactly 4 mana." It is probably unwise to build your very first deck like this, as the deck may not be that good and you will likely have a bad experience with it. But if that's the kind of deck you want, then it's perfectly fine. It does feel pretty good to win a game and then tell people, "oh yeah by the way, this is 'of'-tribal. All my nonland cards are named 'xxx of xxx.'" But this is an advanced form of memery that should be avoided on your first go around.
+Sometimes people like to make decks that follow a particular theme. Some crazy ones include "all nonland cards in the deck depict a character wearing a cape or a cloak," "All cards in the deck start with the letter 'S,'" and "All spells in the deck cost exactly 4 mana." It is probably unwise to build your very first deck like this, as the deck may not be that good and you will likely have a bad experience with it. But if that's the kind of deck you want, then it's perfectly fine. It does feel pretty good to win a game and then tell people, "oh yeah by the way, this is 'of'-tribal. All my nonland cards are named 'xxx of xxx.'" But this is an advanced form of memery that should be avoided on your first go around.
 
 ## Time to buy the cards
 
