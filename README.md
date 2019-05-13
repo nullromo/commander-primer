@@ -126,7 +126,7 @@ Look at some legendary creatures. If you search Gatherer for all legendary creat
 |-|-|-|-|
 | ![Barktooth Warbeard][Barktooth Warbeard] | ![Gabriel Angelfire][Gabriel Angelfire] | ![Gallowbraid][Gallowbraid] | ![Sir Shandlar of Eberyn][Sir Shandlar of Eberyn] | |
 
-If you want to build a deck around a particular commander that has no abilities other than being a 6/5 for 7 mana, then nobody is going to stop you... but it probably won't feel like a commander deck. You want your deck to focus around the commander's abilities (you usually don't want your deck to rely entirely on your commander, but we'll get into that more later on), so it is important to have a playstyle in mind when you think about the commander. For example, look at the table below. Each other these commanders has a pretty obvious playstyle that works well.
+If you want to build a deck around a particular commander that has no abilities other than being a 6/5 for 7 mana, then nobody is going to stop you... but it probably won't feel like a commander deck. You want your deck to focus around the commander's abilities (you usually don't want your deck to rely entirely on your commander, but we'll get into that more later on), so it is important to have a playstyle in mind when you think about the commander. For example, look at the table below. Each of these commanders has a pretty obvious playstyle that works well.
 
 | Uril, the Miststalker | Sliver Legion | Sram, Senior Edificer |
 |-|-|-|
@@ -255,6 +255,8 @@ The deck preview on the right shows all the cards in the list and their prices. 
 
 When you hover your cursor over the name of a card in the preview, a picture of it should appear. You can also add cards to the sideboard by clicking on the `Sideboard` tab on the top of the decklist. Commander decks don't have sideboards, though, so this is usually not important unless you want another section in your deck while you're working on it.
 
+Remember to click `Save` to save your deck.
+
 Add all the cards you thought of in Step 1. Go crazy. Just add a bunch of stuff. It's best to have everything laid out in front of you so that you know what you're working with. The next few steps will guide you through what else to add beyond your initial thoughts.
 
 #### Step 3: Get some inspiration
@@ -262,6 +264,10 @@ Add all the cards you thought of in Step 1. Go crazy. Just add a bunch of stuff.
 Now that you have a place to put your cards, and you've entered in a few things (maybe you have 150 card ideas already, and maybe you've just go 6 or 10; it doesn't matter), it's time to go deeper.
 
 [EDHREC] is our third website. EDHREC is a great site to look to for inspiration. Type the name of your commander into the search bar at the top and click the search button or click a suggestion when it comes up.
+
+| Enter the name of a commander on EDHREC |
+|-|
+| ![EDHREC Search][EDHREC Search] |
 
 There's a lot of stuff on the page. Ignore most of it.
 
@@ -373,30 +379,57 @@ Repeatable value over time is also very good to have. This can look like many th
 
 It can be fun to include one or two funny or especially narrow cards that act kind of like "gotcha!" cards, but don't go throwing more than a couple into your deck. Common examples include Mana Tithe, Stifle, or Ricochet Trap. These cards aren't actually that good because they often don't do a whole lot and they require very specific situations to be good.
 
-|
-Mana Tithe |
-Stifle |
-Ricochet Trap |
+| Mana Tithe | Stifle | Ricochet Trap |
 |-|-|-|
 | ![Mana Tithe][Mana Tithe] | ![Stifle][Stifle] | ![Ricochet Trap][Ricochet Trap] |
 
 #### Step 7: Organization
 
-Collection phase over
-- now go on deckstats
-- make categories
-- think about ratios
-- make sure you have the right amount of stuff
+By now you should have many more cards in your MTGGoldfish decklist that you are interested in. With the collection phase over, it's time to get organized.
+
+[Deckstats] is the next tool to introduce. Deckstats provides a nice tool for grouping cards into categories. Start by going to the site and click `Build a new deck`.
+
+| Click on `Build a new deck` to start creating a decklist |
+|-|
+| ![Deckstats Home][Deckstats Home] |
+
+Back on your MTGGoldfish decklist, once you've saved it, you should see the option to `Download` the decklist. Click that button to download a text file containing your deck. Then on Deckstats, use the `Paste/upload a deck list` button to upload your MTGGoldfish list.
+
+| Use the `Download` button to get your decklist from MTGGoldfish | Click on `Paste/upload a deck list` and then choose the file you just downloaded |
+|:-:|:-:|
+| ![MTGGoldfish Download][MTGGoldfish Download] | ![Direct Entry][Direct Entry] |
+
+| Select the `Upload` tab and upload your downloaded decklist |
+|-|
+| ![Paste or Upload to Deckstats][Paste or Upload to Deckstats] | 
+
+Make sure to leave the `Interpret card names without a number as "1x card name"` box checked. Now you should see all the cards show up. Scroll down to the bottom of the list and use the `Create new subsection` button to create a new category of card for your deck. For example, create a category called "Ramp."
+
+There's a slightly funny thing with Deckstats where the checkboxes do not show up properly. Go to the bottom of the list and click the `Select:` button to reveal a column of checkboxes next to all the card names.
+
+| Create a new category within your deck, use the `Select:` button, and use the `Edit(#)` button |
+|-|
+| ![New Subsection][New Subsection] |
+
+Now that you have an empty "Ramp" category, look through all the cards in the list and find the ones that are included for the purpose of ramp. For each card, click thecheckbox at the far left of the row. Remember that you can see a preview of the card by hovering your cursor over a card name.
+
+Once all the ramp cards are selected, use the `Edit(#)` button to move them to the "Ramp" category. Click `Edit(#)`, change the subsection to "Ramp," and click `Update`.
+
+> Remember to click the select `None` button after you're done moving a group to a new category to un-check all the boxes.
+
+Now all the ramp cards in your deck are in one place. Continue to do this process with new categories until all the cards in the deck are categorized. Create whatever categories you think are useful. For example, you could have categories like "Card Advantage," "Removal," and "Big Bombs."
+
+The purpose of this exercise is to get you thinking about why you have the cards you have. It is an excellent way to realize that you are trying to put 45 spells that do the same thing in your deck and that you should probably cut some of them. Think about the ratios of the categories. Do you want way more creatures than spells? Is there a reason to have a certain critical mass of artifacts? It will really depend on your commander, your playstyle, or maybe your budget.
 
 #### Step 8: Trim, trim, trim
 
-You will probably have a lot more than 100 cards picked out by now. That's okay, but you're going to have to trim it down. Think hard about 
+You will probably have a lot more than 100 cards picked out and categorized at this point. That's okay, but you're going to have to trim it down. Think hard about which cards are the best and which ones are just alright. You won't be able to include everything. Take your time and make good decisions, but don't kill yourself over it too much. You can always change your deck later.
 
 ### Other things to keep in mind
 
-Other things to keep in mind
-- budget
-- theme/challenge
+Your budget may get in the way. This is normal. Sometimes it is useful to make a separate MTGGoldfish decklist ("My Commander - Wishlist" or something) to keep track of the cards you really want but that may be too expensive.
+
+Sometimes people like to make decks that follow a particular theme. Some crazy ones include "all nonland cards in the deck depict a character wearing a cape or a cloak," "All cards in the deck start with the letter 'S,'" and "All cards in the deck cost exactly 4 mana." It is probably unwise to build your very first deck like this, as the deck may not be that good and you will likely have a bad experience with it. But if that's the kind of deck you want, then it's perfectly fine. It does feel pretty good to win a game and then tell people, "oh yeah by the way, this is 'of'-tribal. All my nonland cards are named 'xxx of xxx.'" But this is an advanced form of memery that should be avoided on your first go around.
 
 ## Time to buy the cards
 
@@ -547,6 +580,7 @@ commander
 [Gatherer]: https://gatherer.wizards.com/Pages/Advanced.aspx "Gatherer"
 [MTGGoldfish]: https://www.mtggoldfish.com/ "MTGGoldfish"
 [EDHREC]: https://edhrec.com/ "EDHREC"
+[Deckstats]: https://deckstats.net/ "Deckstats"
 
 [//]: # (examples)
 [Liliana Gatherer]: https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=398441 "Liliana, Heretical Healer Gatherer page"
@@ -566,3 +600,9 @@ commander
 [Suggestion]: /images/suggestion.png "Choose a suggestion"
 [Add Card]: /images/add-card.png "Add it to the list"
 [Update Preview]: /images/update-preview.png "Update the deck preview"
+[Deckstats Home]: /images/deckstats-home.png "Deckstats Home"
+[MTGGoldfish Download]: /images/decklist-download.png "MTGGoldfish Download"
+[Direct Entry]: /images/direct-entry.png "Upload your decklist"
+[EDHREC Search]: /images/edhrec-search.png "EDHREC Search"
+[Paste or Upload to Deckstats]: /images/paste-upload-to-deckstats.png "Paste or Upload to Deckstats"
+[New Subsection]: /images/new-subsection.png "Create a new subsection"
