@@ -565,7 +565,7 @@ Don't be a sore loser or a sore winner. No matter what, say good game and rememb
 
 ## Conclusion
 
-I hope this was helpful, and I wish you the best of luck.
+I hope this guide was helpful. I hope you have a great time playing Commander and I wish you the best of luck!
 
 
 [//]: # (card images)
