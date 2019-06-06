@@ -4,7 +4,7 @@ An introduction to deckbuilding for the Magic: The Gathering (MTG) Commander for
 
 ### How to use this guide
 
-This guide is meant for people who already know how to play Magic, but don't know anything about Commander. Throughout the guide, concepts will be introduced and explained, and any cards that are referenced will show up as images. There is a glossary of terms at the bottom. By the end of the guide, you should have a pretty clear idea of what Commander is all about and how to build a deck. My recommendation is to read the entire guide before starting to build your deck, but if you can't wait, then following along will work as well.
+This guide is meant for people who already know how to play Magic, but don't know anything about Commander. Throughout the guide, concepts will be introduced and explained, and any cards that are referenced will show up as images. By the end of the guide, you should have a pretty clear idea of what Commander is all about and how to build a deck. My recommendation is to read the entire guide before starting to build your deck, but if you can't wait, then following along will work as well.
 
 ## What is commander?
 
@@ -387,7 +387,7 @@ It can be fun to include one or two funny or especially narrow cards that act ki
 
 By now you should have many more cards in your MTGGoldfish decklist that you are interested in. With the collection phase over, it's time to get organized.
 
-[Deckstats] is the next tool to introduce. Deckstats provides a nice tool for grouping cards into categories. Start by going to the site and click `Build a new deck`.
+[Deckstats] is the next tool to introduce. Deckstats provides a nice tool for grouping cards into categories. Start by going to the site and clicking `Build a new deck`.
 
 | Click on `Build a new deck` to start creating a decklist |
 |-|
@@ -411,7 +411,7 @@ There's a slightly funny thing with Deckstats where the checkboxes do not show u
 |-|
 | ![New Subsection][New Subsection] |
 
-Now that you have an empty "Ramp" category, look through all the cards in the list and find the ones that are included for the purpose of ramp. For each card, click thecheckbox at the far left of the row. Remember that you can see a preview of the card by hovering your cursor over a card name.
+Now that you have an empty "Ramp" category, look through all the cards in the list and find the ones that are included for the purpose of ramp. For each card, click the checkbox at the far left of the row. Remember that you can see a preview of the card by hovering your cursor over a card name.
 
 Once all the ramp cards are selected, use the `Edit(#)` button to move them to the "Ramp" category. Click `Edit(#)`, change the subsection to "Ramp," and click `Update`.
 
@@ -433,45 +433,139 @@ Your budget may get in the way. This is normal. Sometimes it is useful to make a
 
 Sometimes people like to make decks that follow a particular theme. Some crazy ones include "all nonland cards in the deck depict a character wearing a cape or a cloak," "All cards in the deck start with the letter 'S,'" and "All spells in the deck cost exactly 4 mana." It is probably unwise to build your very first deck like this, as the deck may not be that good and you will likely have a bad experience with it. But if that's the kind of deck you want, then it's perfectly fine. It does feel pretty good to win a game and then tell people, "oh yeah by the way, this is 'of'-tribal. All my nonland cards are named 'xxx of xxx.'" But this is an advanced form of memery that should be avoided on your first go around.
 
+
+## Pick card versions
+
+If you go back to editing your MTGGoldfish decklist, you will see the option to `Use Specific Card Versions.` Check this box. Then you can go through the cards in your deck and choose which printing of the cards you want to buy. Simply add the three-letter set symbol to the end of the card name in the list. For example, `1 Tranquil Thicket` would instead become `1 Tranquil Thicket [CMA]` if you want the Commander Anthologies version, and `1 Tranquil Thicket [ONS]` if you want the Onslaught version. Often times you won't care about the printing, and you can skip this step if you want. But sometimes it can be fun to get alternate art cards or certain printings that you like.
+
+### What are the versions of a card?
+
+Head over to [Scryfall] to check for alternate printings of cards. Type in the name of a card and then select the matching card out of the results (there may be other cards that show up). Use the `View all prints ->` option on the right-hand side of the single card page to see all the printings of a particular card.
+
+| Search for a card on Scryfall |
+|-|
+| ![Scryfall Search][Scryfall Search] |
+
+| Select the card you want and click `View all prints->` on the right |
+|-|
+| ![Scryfall Single][Scryfall Single] |
+
+| Now you can see all the printings of the card |
+|-|
+| ![Scryfall All][Scryfall All] |
+
+You can also do this on MTGGoldfish by just searching for the card and looking at the printings list on the right hand side of the page. The orange prices are for Magic online, so you can ignore those. Any card that does not have a blue price is not available in paper, so you can also ignore those.
+
+| MTGGoldfish has all the printings and their prices |
+|-|
+| ![MTGGoldfish Printings][MTGGoldfish Printings] |
+
+Searching on MTGGoldfish and pressing Enter or clicking the magnifying glass symbol instead of selecting an option from the drop-down suggestion list will also take you to a page with all the printings which you can hover over to see what the card looks like.
+
+| MTGGoldfish shows all the printings of a card if you don't select a single one |
+|-|
+| ![MTGGoldfish List][MTGGoldfish List] |
+
+Using these methods, you can figure out which versions of cards you want. If you update your MTGGoldfish decklist with the proper versions, then you'll be able to see the price updated there as well.
+
 ## Time to buy the cards
 
-Buy the cards
-- versions on mtggoldfish editor
-- copy decklist
-- select versions in cart optimizer
-- optimize 3 times
-- select cart
-- order
-- make sure to write reviews as they come in
-- if an order is wrong, give 1 star and they will accommodate, then change after
-- anecdote
+You built your first Commander deck. Whew. Now it's time to buy some cards!
+
+The last website we need for this guide is [TCGPlayer]. This is the best online card marketplace to buy your cards from. There are other sites, but this one is usually the most trusted and the largest.
+
+### Use mass entry
+
+Download your MTGGoldfish decklist and then copy the contents of the downloaded file. Go to TCGPlayer and look towards the bottom of the webpage for `Mass Entry`.
+
+| This is the bottom of the TCGPlayer homepage. Use `Mass Entry` to enter a lot of cards |
+|-|
+| ![Mass Entry Link][Mass Entry Link] |
+
+Paste your decklist into the mass entry box and click `Add to Cart`. It may take some time to add 100 items to your cart, so be patient.
+
+### Optimize your cart
+
+Now you should be on your shopping cart page. Press the big blue button that says `Optimize Your Cart!`. This will bring you to the cart optimizer. When items are added to your cart, TCGPlayer will select the first available card that matches the name you provided. The cart optimizer tries to use TCGPlayer's network of sellers to find you the cheapest option available in the current market.
+
+You should now be on the cart optimizer page. If you don't care about which printings you are getting and you just want to unconditionally get the cheapest versions of your cards, go ahead and click the `Optimize` button and skip the rest of this paragraph. If you care about the printings, expand the `Show Advanced Options` tab. This will bring up a section for every item in your cart where you can select versions that you want the optimizer to look for. For each card, use the drop-down `Sets:` option to select the printings that you would be okay with getting. This can be tedious to do with 100 cards, but it's the best way to optimize your cart. Go through all the cards and un-select the printings you don't want for each card.
+
+Now that you've done this, click the `Optimize` button.
+
+Once it finishes, click the `Optimize` button again. It's a good idea to optimize multiple times because in my experience, the price will almost always drop after the second optimization.
+
+After optimization, there will be three carts shown. One only uses items from TCGPlayer Direct, one only uses items from certified sellers, and the last one uses any cards. In my experience, you should just pick the cheapest one. Non-certified sellers are usually very relieable, and when they aren't they are usually very accommodating.
+
+### Order the cards
+
+After selecting the cart you want, go ahead and order the cards! When your packages arrive, make sure to leave reviews for the orders. If the order got there and it was correct, give 5 stars. If it wasn't correct for any reason, give them 1 star and say why you were dissatisfied. This has happened to me serveral times, and every single time the seller will contact me, refund me, send a replacement, etc. after which I delete my old review and leave a new 3-, 4-, or 5-star review. One time I got the correct $15 card and the wrong $2 card in an order. The seller refunded my entire order of $17 (not just the incorrect card) and still sent me a replacement of the $2 card. Needless to say, I updated my order to 5 stars. Magic card sellers are nice, so don't be afraid to contact them if an order is wrong. At the same time, give credit where it is due and send positive feedback to good sellers.
 
 ## Time to play the game!
 
-Time to play
-- good table
-- playmat
-- sleeves
-- players
+Once you have your deck, it's time to play some Magic. Here are some tips:
+
+- Use a good table.
+  - A good table allows all the players to see all the cards. Round tables or square tables are the best so that everyone can face the center. Rectangular tables are less good because not everyone faces each other.
+- Use sleeves.*
+  - You're going to want to use card sleeves for your deck. Shuffling unsleeved cards damages them very quickly and you don't want that.
+  - I recommend UltraPro Eclipse sleeves. You can get about 800 of them for around $56, so that's 7 cents per sleeve.
+    - If you have cards in your deck that are worth over $50, it is a good idea to double-sleeve the deck. I recommend KMC Perfect Size sleeves as your inner sleeve. These can be bought in lots of 1000 for about $25, so that's 2.5 cents per sleeve.
+  - An overall cost of 9.5 cents per sleeve times 100 cards is just $9.50 to protect your deck. That is definitely worth it in the long run.
+- Use a deck box.
+  - I am not that experienced with deck boxes, and the ones I use are boxes that I made out of wood or cardboard. It's possible to spend a lot of money on a good deck box, but you don't need to. Cardboard card boxes are fine, but it just depends on what you want/like.
+- Buy a playmat.
+  - It's essential to have a playmat if you're going to be playing on unknown surfaces. I often play at a game store and the tables seem relatively clean until you slide your sleeved cards across them a few dozen times and then try to shuffle your deck. A lot of grime can build up on the sleeves, making the deck difficult to shuffle. A playmat will eliminate this issue and it will also make playing the game more enjoyable.
+  - [Inked] is a really cool place to get a custom playmat. Choose some art that you like and they'll send you a high-quality custom mat for $27. It's a great deal.
+    - DO NOT PUT SEXY ANIME CHICKS WITH GIANT EXPOSED BREASTS/CLEAVAGE ON YOUR PLAYMAT! Please, just don't. It's inappropriate and uncomfortable for people around you. The same goes for your sleeves.
+- Get some dice and/or counters.
+  - Dice are great for tracking counters and life totals. Pick up some.
+  - Tracking life totals and commander damage can be tedious. Use a notepad or an app, or whatever other way you prefer. Just make sure you have a good way to track it that everyone at the table can see.
+- Find some people to play with.
+  - Hopefully you have some friends. Otherwise, look for a local game store using the Wizards of the Coast [Store Locator]. Ask if they have a weekly Commander night.
+
+*[The Professor] has some great videos on sleeves, so check out his sleeve reviews and his double-sleeving videos if you're interested.
+
+All this equipment may seem kind of unnecessary at first, but as you play you will begin to realize how nice it is to have things squared away.
 
 ### Play a fun game
 
-And when you play
-- threat assessment
-- no spite
-- don't be afraid to kill people if it advances you
-- politics
-- don't be "afraid of combo pieces" too much
-- no whining
+This final section will go over a few tips for having a good game when you play Commander.
 
+#### Threat assessment
 
+A large part of playing Commander is knowing what cards are problematic or extremely powerful. Don't use your removal on the first thing you see. Don't instantly kill someone's commander just because you can. When you spend your counterspell on something and then the next turn you lose the game, you'll be wishing you had saved the counterspell.
 
-## Glossary of terms
+This is a skill that takes a long time and a lot of experience to master, but just think about it and you will learn. Instead of immediately attacking someone or casting a removal spell, ask the other players, "should we be worried about this?" You don't always want to reveal your hand, but it can be important to use politics and negotiation throughout the game. Examples include:
 
-MTG
-format
-commander
+- "Don't use your removal now; I'm going to wipe the board next turn."
+- "Somebody needs to counter this or else we will all lose."
+- "We need to kill this creature before it gets too big."
 
+#### No spite
+
+Don't do things out of spite. It sounds like a no-brainer, but there are many times when people say "I'm going to attack you because you killed all my artifacts." That's not a good reason to attack someone. "John killed me first in the last game, so I'm going to kill him first this game" is a horrible mindset to be in. This leads to un-fun games and you and your friends getting mad at each other, so just make your decisions based on the game and try not to take things personally.
+
+#### Don't be afraid to kill people if it advances you
+
+It's a fun game, and people don't like killing their friends, but sometimes you have to eliminate someone because if you don't, they will eliminate you. Knowing when and when not to kill a player also takes some careful thought and experience. Also remember, it's the last player alive that wins. Killing someone early doesn't get you bonus points, but it can help you win the game later.
+
+#### Politics
+
+Negotiate with people. For example:
+
+- "I'll let this spell resolve, if you don't attack me for 3 turns."
+- "We need to team up to defeat Suzy, so let's not attack each other for a while."
+- "Can you make me discard a card? I have something with Madness that I want to cast. I'll help you out by gaining you some life."
+
+Don't make promises you aren't going to keep. Seriously. It's extremely rude to promise someone something in the game and not follow through with it. If you do that in a game with me, I'm likely to never play with you again. Likewise, don't argue semantic points or lawyer people into things. Nobody likes the guy who says "no, I said I wouldn't _attack_ you with this creature. I never said I wouldn't _target you with it's ability_!" That's called being a cock.
+
+#### No Whining
+
+Don't be a sore loser or a sore winner. No matter what, say good game and remember that everyone is just there to have fun.
+
+## Conclusion
+
+I hope this was helpful, and I wish you the best of luck.
 
 
 [//]: # (card images)
@@ -483,7 +577,7 @@ commander
 [Nicol Bolas]: https://img.scryfall.com/cards/large/en/me3/163.jpg?1517813031 "The five Elder Dragons"
 [Vaevictis Asmadi]: https://img.scryfall.com/cards/large/en/me3/185.jpg?1517813031 "The five Elder Dragons"
 [Palladia-Mors]: https://img.scryfall.com/cards/large/en/me3/164.jpg?1517813031 "The five Elder Dragons"
-[Ancestral Recall Beta]: https://img.scryfall.com/cards/large/en/leb/48.jpg?1525122970 "Old wording of Ancestral Recall"
+[Ancestral Recall Beta]: https://img.scryfall.com/cards/large/front/4/6/46b0a5c2-ac85-448e-9e87-12fc74fd4147.jpg?1559591672 "Old wording of Ancestral Recall"
 [Ancestral Recall]: https://img.scryfall.com/cards/large/en/ovnt/2005.jpg?1523193155 "New wording of Ancestral Recall"
 [Glasses of Urza Beta]: https://img.scryfall.com/cards/large/en/leb/246.jpg?1525123591 "Old printing of Glasses of Urza"
 [Glasses of Urza]: https://img.scryfall.com/cards/large/en/me4/203.jpg?1517813031 "New printing of Glasses of Urza"
@@ -583,6 +677,10 @@ commander
 [MTGGoldfish]: https://www.mtggoldfish.com/ "MTGGoldfish"
 [EDHREC]: https://edhrec.com/ "EDHREC"
 [Deckstats]: https://deckstats.net/ "Deckstats"
+[TCGPlayer]: https://www.tcgplayer.com "TCGPlayer"
+[Scryfall]: https://scryfall.com "Scryfall"
+[Inked]: https://www.inkedgaming.com/products/custom-playmat "Inked custom playmats"
+[Store Locator]: https://locator.wizards.com/event-reservations-web/?searchType=magic-events&query=Los%20Angeles,%20CA,%20USA&distance=25&page=1&sort=date&sortDirection=asc "WOTC Store Locator"
 
 [//]: # (examples)
 [Liliana Gatherer]: https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=398441 "Liliana, Heretical Healer Gatherer page"
@@ -591,6 +689,7 @@ commander
 [non-blue-counters-terms]: /images/non-blue-counters-terms.png "Search terms for non-blue counterspells"
 [green white lands]: https://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=visual&action=advanced&text=+%5b%7bG%7d%5d+%5b%7bW%7d%5d+!%5b%7bB%7d%5d+!%5b%7bR%7d%5d+!%5b%7bU%7d%5d&type=+%5bland%5d "Search for green and white lands"
 [the banlist]: https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted#commander "Commander banlist"
+[The Professor]: https://www.youtube.com/channel/UC7-hR5EfgpM6oHfiGDkxfMA "Tolarian Community College"
 
 [//]: # (screenshots)
 [green white lands search]: /images/green-white-lands-search.png "Search terms for green and white lands"
@@ -608,3 +707,9 @@ commander
 [EDHREC Search]: /images/edhrec-search.png "EDHREC Search"
 [Paste or Upload to Deckstats]: /images/paste-upload-to-deckstats.png "Paste or Upload to Deckstats"
 [New Subsection]: /images/new-subsection.png "Create a new subsection"
+[Scryfall Search]: /images/scryfall-search.png "Scryfall search results"
+[Scryfall Single]: /images/scryfall-single.png "Scryfall single card page"
+[Scryfall All]: /images/scryfall-all.png "All the printings of Sun Titan"
+[MTGGoldfish Printings]: /images/mtggoldfish-printings.png "MTGGoldfish Printings"
+[MTGGoldfish List]: /images/mtggoldfish-list.png "MTGGoldfish List"
+[Mass Entry Link]: /images/mass-entry-link.png "Mass Entry"
