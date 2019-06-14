@@ -72,7 +72,7 @@ A big part of what makes the format fun is the in-game politics. Some games play
 
 ### So, what is Commander?
 
-Commander is **_THE_** casual format. Commander is where you can experiment. Your deck can be whatever you want it to be. You can play weird, random cards printed in 1998 that aren't good enough for Modern. Also, the decks are a lot less consistent in general, because your deck is 100 cards instead of 60, and you only have 1 copy of each. This means that it's a lot less about curving out in the first few turns. It's a lot harder to deprive 3 opponents of resources. It's much more difficult to kill people on turn 3 with simple combat damage. The tight, competative style of other constructed formats is broken down and replaced with a relaxed attitude of fun for the sake of fun.
+Commander is **_THE_** casual format. Commander is where you can experiment. Your deck can be whatever you want it to be. You can play weird, random cards printed in 1998 that aren't good enough for Modern. Also, the decks are a lot less consistent in general, because your deck is 100 cards instead of 60, and you only have 1 copy of each. This means that it's a lot less about curving out in the first few turns. It's a lot harder to deprive 3 opponents of resources. It's much more difficult to kill people on turn 3 with simple combat damage. The tight, competitive style of other constructed formats is broken down and replaced with a relaxed attitude of fun for the sake of fun.
 
 Now that we've covered what Commander is and how it works, it's time (finally!) to talk about building a deck.
 
@@ -157,7 +157,7 @@ Now that you have a starting point, it's important to remember a few things. Whe
 
 As fun as you might think it is to use Elvish Spirit Guide to Flash in Protean Hulk on turn 1 and win the game with Carrion Feeder, Karmic Guide, Academy Rector, Grand Abolisher, Animate Dead, Mikaeus, the Unhallowed, and Walking Ballista (see following note for details), it's certainly not fun for any of your opponents, and after you do this a few times, losing all your friends in the process, you will realize that it is, in fact, not fun.
 
-> Protean Hulk has long been a combo piece for competative EDH players, and it has many, many chains that can win the game instantly when its ability triggers.
+> Protean Hulk has long been a combo piece for competitive EDH players, and it has many, many chains that can win the game instantly when its ability triggers.
 >
 > | Island | Elvish Spirit Guide | Flash | Protean Hulk |
 > |:-:|:-:|:-:|:-:|
@@ -197,7 +197,7 @@ In general, you are less likely to get bored when you play a "non-linear" deck. 
 
 Now that you have a starting point, it's time to start building the deck! Commander is sometimes called "battle-cruiser Magic" because of the fact that it is slower than 1-on-1, and therefore allows for more big, flashy plays. In Legacy, for example, casting a big 7-mana creature for its full cost is almost always impossible &mdash; you may not even survive long enough to play 7 lands. In Commander, it's much more likely that you'll survive that long because there are a bunch of other things going on. The pace of the game is a bit slower, allowing you to play some more expensive cards. That being said, you can't just shove 99 huge cards into a deck and hope to have any fun. We're going to talk about how to balance the deck properly.
 
-In competative, 60-card, non-singleton formats, you want your deck to be as consistent as possible. Most good 60-card constructed decks have 4 copies of all their important cards. This is not a hard rule, of course, as some decks have many ways to search out specific creatures, Vintage has a restricted list that only allows 1 copy of some cards, control decks that draw a lot of cards tend to cut back to 2-3 copies of some important cards, etc. In Commander you can only play 1 copy of every card, but this doesn't mean your deck can't be consistent! We will talk about how to look for redundancy and how to build your deck in such a way that it does what you want it to do.
+In competitive, 60-card, non-singleton formats, you want your deck to be as consistent as possible. Most good 60-card constructed decks have 4 copies of all their important cards. This is not a hard rule, of course, as some decks have many ways to search out specific creatures, Vintage has a restricted list that only allows 1 copy of some cards, control decks that draw a lot of cards tend to cut back to 2-3 copies of some important cards, etc. In Commander you can only play 1 copy of every card, but this doesn't mean your deck can't be consistent! We will talk about how to look for redundancy and how to build your deck in such a way that it does what you want it to do.
 
 Keep in mind, your first deck may not be that good. After all, if you haven't played Commander a lot, you probably won't know exactly how it goes. This is okay, because your deck can evolve over time and as you play more and see more decks, you will discover more and more about what makes a good deck.
 
