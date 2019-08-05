@@ -109,7 +109,7 @@ You can ask Gatherer for all kinds of things. Let's say we are building a deck w
 |-|-|-|
 | ![green white lands search][green white lands search] | ![green white lands exclude][green white lands exclude] | ![green white lands terms][green white lands terms] |
 
-Here we make sure to exclude lands that contain the blue, red, and black mana symbols, becuase those would be illegal in a deck with a commander whose color identity is only green and white. You should end up at [this page][green white lands], which has 30 results. Wow, that's a lot of green-white dual lands!
+Here we make sure to exclude lands that contain the blue, red, and black mana symbols, becuase those would be illegal in a deck with a commander whose color identity is only green and white. You should end up at [this page][green white lands], which has over 29 results. Wow, that's a lot of green-white dual lands!
 
 > **NOTE**: keep in mind that there may be other non-obvious factors. In the example above, we do not see lands like Command Tower, Gemstone Mine, Cascading Cataracts, or Painted Bluffs, even though they would be legal in an only green and white deck.
 >
@@ -432,14 +432,14 @@ You will probably have a lot more than 100 cards picked out and categorized at t
 
 ### Other things to keep in mind
 
-Your budget may get in the way. This is normal. Sometimes it is useful to make a separate MTGGoldfish decklist ("My Commander - Wishlist" or something) to keep track of the cards you really want but that may be too expensive.
+Your budget may get in the way. This is normal. Sometimes it is useful to make a separate MTGGoldfish decklist ("My Commander - Wishlist" or something) to keep track of the cards you really want but that may be too expensive for now.
 
 Sometimes people like to make decks that follow a particular theme. Some crazy ones include "all nonland cards in the deck depict a character wearing a cape or a cloak," "All cards in the deck start with the letter 'S,'" and "All spells in the deck cost exactly 4 mana." It is probably unwise to build your very first deck like this, as the deck may not be that good and you will likely have a bad experience with it. But if that's the kind of deck you want, then it's perfectly fine. It does feel pretty good to win a game and then tell people, "oh yeah by the way, this is 'of'-tribal. All my nonland cards are named 'xxx of xxx.'" But this is an advanced form of memery that should be avoided on your first go around.
 
 
 ## Pick card versions
 
-If you go back to editing your MTGGoldfish decklist, you will see the option to `Use Specific Card Versions.` Check this box. Then you can go through the cards in your deck and choose which printing of the cards you want to buy. Simply add the three-letter set symbol to the end of the card name in the list. For example, `1 Tranquil Thicket` would instead become `1 Tranquil Thicket [CMA]` if you want the Commander Anthologies version, and `1 Tranquil Thicket [ONS]` if you want the Onslaught version. Often times you won't care about the printing, and you can skip this step if you want. But sometimes it can be fun to get alternate art cards or certain printings that you like.
+Once you've cut down to 100 cards (99 + your commander) and transferred the Deckstats list back over to MTGGoldfish, you'll want to select card versions. If you go back to editing your MTGGoldfish decklist, you will see the option to `Use Specific Card Versions.` Check this box. Then you can go through the cards in your deck and choose which printing of the cards you want to buy. Simply add the three-letter set symbol to the end of the card name in the list. For example, `1 Tranquil Thicket` would instead become `1 Tranquil Thicket [CMA]` if you want the Commander Anthologies version, and `1 Tranquil Thicket [ONS]` if you want the Onslaught version. Often times you won't care about the printing, and you can skip this step if you want. But sometimes it can be fun to get alternate art cards or certain printings that you like.
 
 ### What are the versions of a card?
 
@@ -514,6 +514,8 @@ Once you have your deck, it's time to play some Magic. Here are some tips:
   - I recommend UltraPro Eclipse sleeves. You can get about 800 of them for around $56, so that's 7 cents per sleeve.
     - If you have cards in your deck that are worth over $50, it is a good idea to double-sleeve the deck. I recommend KMC Perfect Size sleeves as your inner sleeve. These can be bought in lots of 1000 for about $25, so that's 2.5 cents per sleeve.
   - An overall cost of 9.5 cents per sleeve times 100 cards is just $9.50 to protect your deck. That is definitely worth it in the long run.
+  - Put the commander in a different sleeve than the rest of the cards! This way if you accidentally shuffle your commander into your deck, it's easy to find it.
+  - Always have a few extra sleeves on hand in case one breaks.
 - Use a deck box.
   - I am not that experienced with deck boxes, and the ones I use are boxes that I made out of wood or cardboard. It's possible to spend a lot of money on a good deck box, but you don't need to. Cardboard card boxes are fine, but it just depends on what you want/like.
 - Buy a playmat.
